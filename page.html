@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    
+
+<head>
+    <meta charset="UTF-8">
+    <title> Pagina Web Leo</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="menu" >
+    <p data-seccion="Projects" onclick="mostrarinfo(this)"> Projects  </p>
+    <p data-seccion="Skills" onclick="mostrarinfo(this)"> skills </p>
+    <p data-seccion="Experience" onclick="mostrarinfo(this)"> Experience</p>
+    <p data-seccion="Education" onclick="mostrarinfo(this)"> Education</p>
+    <p data-seccion="PersonalInfo" onclick="mostrarinfo(this)"> Personal-Info</p>
+  </div>
+
+
+  <div style="display: flex; gap: 20px; align-items: flex-start" >
+    <div class="divLeoPersonal">
+      <h3 class="anton-regular"> Leonardo Monge </h3>
+      <p class="subtitulo"></pclass>> Software Engineer in Progress >>
+    </div> 
+    
+    <div class="divDescripcion" >
+      <p>
+        Systems engineering student, looking for an opportunity to join a company
+        where I can apply my skills. I have basic knowledge in software and web development,
+        and I'm also taking a course focused on developing myself as a full-stack engineer.
+        Here you can learn a little about me. 
+      </p>
+    </div>
+  </div>
+   
+
+  
+   <div class="formatoProject " id="Projects" >
+     <div style="display: flex; gap: 20px; align-items: flex-start" >
+      <img src="C:\Users\Usuario\Desktop\Leo Universidad\DEVLIVE\ResumeWebPage\ResumeWebPage\imgone.PNG" alt="Leo" class="imagen-pequena">
+      <img src="C:\Users\Usuario\Desktop\Leo Universidad\DEVLIVE\ResumeWebPage\ResumeWebPage\imgtwo.PNG" alt="Leo" class="imagen-pequena">
+     </div>
+     <p>It's a simple console game that require basci knowlegde of fundamentals.
+      It implemnets functions, arrays, classes, loops, export functions and
+      how manage and create a project. The gameplay is basic, two pokemons battle
+      each other, and decreases. I chose this project to implement feactures
+      that allow users to select and interact with it.
+      </p>
+     <p class="regresar" onclick="ocultarinfo()">Return</p>
+   </div>
+
+
+
+   <div class="formatoDos" id="Skills">
+    <h3> Skills </h3>
+    <ul>
+      <li>Languages : JavaScript, Java</li> 
+      <li>React, Node.js</li> 
+      <li>DataBases: MySQL.</li>   
+      <li>Tools: Git, GitHub,Postman,</li>  
+      <li>VSCode</li>  
+      <li>Others: APIsRest, Object-Based</li>  
+      <li>Programing, Basics Scrum</li>  
+    </ul>   
+    <p class="regresar" onclick="ocultarinfo()">Return</p>
+  </div>
+   
+
+
+  <div  class="formatoTres" id="Experience" >
+    <h3>Experience</h3>
+   
+  <div style="display: flex"> 
+    <div >
+      <p>Administrative Assitente</p>
+      <p>Grupo Dipo. ( August 2022-Currently )</p>
+      <li>Production Department Assistant, supporting functions
+         such as purchasing materials, personal supervision, 
+         and reviewing production documents</li>
+    </div>
+     
+    <div >
+      <p>Administrative Assitente</p>
+      <p>Alteco S.A ( September 2017 - February 2022)</p>
+      <li>Management assistant, support in material purchasing processes,
+        production review, customer service.</li>
+    </div>
+  </div>
+   
+
+    <p class="regresar" onclick="ocultarinfo()">Return</p>
+  </div>
+
+
+
+
+  <div class="formato"id="Education" >
+    <h3>Education</h3>
+    <p>Fidelitas University ( July 2021-Currently)</p>
+    <li>Intermediate Student Ing. Systems 2021-Currently</li> 
+    <li>Advanced Student Ing. Industrial 2017-2021</li> 
+    <li>Advanced Course Excel 2016</li> 
+
+    <p>Web Development Course ( 2024 )</p>
+    <li>Personal course completed in HTML5, CSS, JavaScript. Basic Concepts
+     focused on web development</li>
+
+    <p>Sofware Developer Course DEVLIVE ( 2025 - Currently )</p>
+    <li>Course focused on the main needs for software development, covering
+    topics such as: Dev Enviroment, Fundamentals, Version Control System
+    Objects, Data Structures, Networking, Testing, Desing Patterns,
+    Frontend, React JS, Backend.</li> 
+
+    <p>University Juan Pablo II</p>
+    <li>Intermediate English Certificate B1-B2</li> 
+    <p class="regresar" onclick="ocultarinfo()">Return</p>
+  </div>
+
+
+
+  <div class="formatoDos"id="PersonalInfo" >
+    <h3>Personal-Info</h3>
+    <li>Costarricense.</li> 
+    <li>Guadalupe - Cartago.</li> 
+    <li>Phone : (+506) 7261-2066.</li> 
+    <li>leonardomonge19@gmail.com</li>  
+      
+    <p class="regresar" onclick="ocultarinfo()">Return</p>
+  </div>
+
+  <div class="social-icons">
+    <a href="https://facebook.com/tuUsuario" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://linkedin.com/in/tuUsuario" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://github.com/tuUsuario" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+
+
+
+</body>
+
+<script src="page.js"></script>  
+</html>

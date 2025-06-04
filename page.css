@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(14, 24, 54);
+    margin: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-position: center;
+    text-align: center;
+  }
+ /* https://coolors.co/colors/blue*/
+
+ .anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.divLeoPersonal {
+  width: 40%;
+  background-color: rgb(14, 24, 54);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.divDescripcion {
+  width: 30%;                 /* Menor ancho */
+  min-height: 300px;          /* Mayor altura mínima */
+  background-color: rgb(14, 24, 54);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;      /* Centra verticalmente */
+  justify-content: center;  /* Centra horizontalmente (opcional) */
+   margin-left: 200px;
+   margin-top: 90px;
+   font-size: 20px;
+
+  
+}
+.subtitulo {
+  font-style: italic;
+  color: white
+}
+
+
+.imagen-pequena {
+  width: 400px;  
+  height: 400px;          
+  object-fit: cover;      
+  display: block;
+  margin: 0 auto;
+
+}
+
+
+.formato {
+  
+    background-color: rgb(14, 24, 54);
+    display: none;
+    width: 1300px;  
+    height: 400px;
+    position: absolute;
+    top: 50%;/* coloca el div en el centro de la pantalla */
+    left: 50%;/* coloca el div en el centro de la pantalla */
+    transform: translate(-50%, -50%);/* coloca el div en el centro de la pantalla */
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: justify;/* esto alinea el texto a la izquierdad dentro del div */
+    padding-left: 15px;   /* esto me separa el texto del borde  */
+    padding-right: 15px;   /* esto me separa el texto del borde  */
+  }
+
+  .formatoDos {
+    background-color: rgb(14, 24, 54);
+    display: none;
+    width: 1300px;  
+    height: 400px;
+    position: absolute;
+    top: 50%;/* coloca el div en el centro de la pantalla */
+    left: 50%;/* coloca el div en el centro de la pantalla */
+    transform: translate(-50%, -50%);/* coloca el div en el centro de la pantalla */
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;/* esto alinea el texto al centro dentro del div */
+    padding-left: 15px;   
+    padding-right: 15px;   
+   
+  }
+  .formatoTres {
+    background-color: rgb(14, 24, 54);
+    display: none;
+    width: 1300px;   
+    height: 400px;
+    position: absolute;
+    top: 50%;/* coloca el div en el centro de la pantalla */
+    left: 50%;/* coloca el div en el centro de la pantalla */
+    transform: translate(-50%, -50%);/* coloca el div en el centro de la pantalla */
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;/* esto alinea el texto al centro dentro del div */
+    padding-left: 15px;   
+    padding-right: 15px;   
+  }
+
+  .formatoProject {
+    background-color: rgb(14, 24, 54);
+    display: none;
+    width: 1300px;   
+    height: 400px;
+    position: absolute;
+    top: 45%;/* coloca el div en el centro de la pantalla */
+    left: 50%;/* coloca el div en el centro de la pantalla */
+    transform: translate(-50%, -50%);/* coloca el div en el centro de la pantalla */
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;/* esto alinea el texto al centro dentro del div */
+    padding-left: 15px;   
+    padding-right: 15px; 
+    margin-bottom: 50px ;  
+  }
+
+
+  .regresar {
+    background-color: rgb(0, 49, 83);
+    margin-top: 10px;
+    margin-left: 45%;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+
+  }
+  .menu {
+    margin-top: 10px;
+    background-color: rgb(14, 24, 54);
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+  
+  }
+  .menu p {
+    margin: 0 10px;
+    cursor: pointer;
+    padding: 10px;
+    transition: background 0.3s;
+  }
+  
+  .menu p:hover {
+    background-color: #847e7e;
+    border-radius: 5px;
+  }
+  ul {
+    padding-left: 0;
+    margin-left: 0;
+    list-style-position: inside;
+  }
+
+
+  .social-icons {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espacio entre íconos */
+  }
+
+  .social-icons a {
+    font-size: 24px;
+    color: white; /* o el color que tú uses */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #3f4243; /* Color al pasar el mouse, opcional */
+  }
+ 
