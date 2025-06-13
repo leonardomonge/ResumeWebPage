@@ -35,7 +35,7 @@ body {
   align-items: center;      /* Centra verticalmente */
   justify-content: center;  /* Centra horizontalmente (opcional) */
    margin-left: 200px;
-   margin-top: 90px;
+   margin-top: 60px;
    font-size: 20px;
 
   
@@ -55,12 +55,10 @@ body {
 
 }
 
-
-.formato {
-  
+  .formatoSkills {
     background-color: rgb(14, 24, 54);
     display: none;
-    width: 1300px;  
+    width: 400px;  
     height: 400px;
     position: absolute;
     top: 50%;/* coloca el div en el centro de la pantalla */
@@ -68,41 +66,24 @@ body {
     transform: translate(-50%, -50%);/* coloca el div en el centro de la pantalla */
     border-radius: 10px;
     color: rgb(255, 255, 255);
-    text-align: justify;/* esto alinea el texto a la izquierdad dentro del div */
-    padding-left: 15px;   /* esto me separa el texto del borde  */
-    padding-right: 15px;   /* esto me separa el texto del borde  */
-  }
-
-  .formatoDos {
-    background-color: rgb(14, 24, 54);
-    display: none;
-    width: 1300px;  
-    height: 400px;
-    position: absolute;
-    top: 50%;/* coloca el div en el centro de la pantalla */
-    left: 50%;/* coloca el div en el centro de la pantalla */
-    transform: translate(-50%, -50%);/* coloca el div en el centro de la pantalla */
-    border-radius: 10px;
-    color: rgb(255, 255, 255);
-    text-align: center;/* esto alinea el texto al centro dentro del div */
+    text-align: justify;/* esto alinea el texto al centro dentro del div */
     padding-left: 15px;   
-    padding-right: 15px;   
-   
+    padding-right: 15px;    
   }
-  .formatoTres {
+  .formatoPersonalInfo {
     background-color: rgb(14, 24, 54);
     display: none;
-    width: 1300px;   
-    height: 400px;
+    width: 300px;  
+    height: 250px;
     position: absolute;
     top: 50%;/* coloca el div en el centro de la pantalla */
     left: 50%;/* coloca el div en el centro de la pantalla */
     transform: translate(-50%, -50%);/* coloca el div en el centro de la pantalla */
     border-radius: 10px;
     color: rgb(255, 255, 255);
-    text-align: center;/* esto alinea el texto al centro dentro del div */
+    text-align: justify;/* esto alinea el texto al centro dentro del div */
     padding-left: 15px;   
-    padding-right: 15px;   
+    padding-right: 15px;    
   }
 
   .formatoProject {
@@ -122,18 +103,54 @@ body {
     margin-bottom: 50px ;  
   }
 
+  .formatoEducacion {
+    background-color: rgb(14, 24, 54);
+    display: none;
+    width: 800px;   
+    height: 500px;
+    position: absolute;
+    top: 45%;/* coloca el div en el centro de la pantalla */
+    left: 50%;/* coloca el div en el centro de la pantalla */
+    transform: translate(-50%, -50%);/* coloca el div en el centro de la pantalla */
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: justify;/* esto alinea el texto al centro dentro del div */
+    padding-left: 15px;   
+    padding-right: 15px; 
+    margin-top: 30px;
+    margin-left:20px;
+  }
+
+  .formatoExperience {
+    background-color: rgb(14, 24, 54);
+    display: none;
+    width: 800px;   
+    height: 500px;
+    position: absolute;
+    top: 45%;/* coloca el div en el centro de la pantalla */
+    left: 50%;/* coloca el div en el centro de la pantalla */
+    transform: translate(-50%, -50%);/* coloca el div en el centro de la pantalla */
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: justify;/* esto alinea el texto al centro dentro del div */
+    padding-left: 15px;   
+    padding-right: 15px; 
+    margin-top: 30px;
+    margin-left:20px;
+  }
 
   .regresar {
-    background-color: rgb(0, 49, 83);
+    background-color: rgb(10, 19, 44);
     margin-top: 10px;
-    margin-left: 45%;
+    margin-left:45%;
     height: 30px;
-    width: 100px;
+    width: 80px;
     cursor: pointer;
     text-align: center;
     border-radius: 5px;
-
   }
+
+
   .menu {
     margin-top: 10px;
     background-color: rgb(10, 19, 44);
