@@ -1,0 +1,168 @@
+const translations = {
+    en: {
+      // Navbar
+      navAbout: "About",
+      navWhy: "Why me?",
+      navProjects: "Projects",
+      navExperience: "Experience",
+      navEducation: "Education",
+      navSkills: "Skills",
+      contactBtn: "Contact me ▾",
+  
+      // About
+      availableTag: "⚡ Available for work",
+      aboutTitle: "Hi, I'm Leonardo Monge",
+      aboutDesc: "Full Stack Developer in training with experience in TypeScript, React, and PostgreSQL,among others. Focused on web application development for process optimization.Seeking a junior developer or internship opportunity. ",
+  
+      // Why
+      whyTitle: "Why work with me?",
+      why1Title: "Fast Learner",
+      why1Desc: "I study and program every day; I am sure I can learn and adapt to any new technology.",
+      why2Title: "AI-Driven Development",
+      why2Desc: "Passionate about artificial intelligence, with a focus on continuous learning and the application of the latest technologies.",
+      why3Title: "Problem Solver",
+      why3Desc: "Today, knowing how to program is not enough; the key is detecting and solving problems with software development.",
+      why4Title: "Clear Communication",
+      why4Desc: "10+ years working as a team, I'm sure it's the best way to work to achieve our goals.",
+      why5Title: "Committed",
+      why5Desc: "Committed to the design and development of efficient and scalable software solutions.",
+      why6Title: "Long-Term Vision",
+      why6Desc: "In a few years I see myself as a Full Stack developer leading projects, applying the most innovative technologies and contributing to the development of the company.",
+  
+      // Projects
+      projectsTitle: "Projects",
+      project1Title: "Digital logBook",
+      project1Desc: "A web application developed to digitize and optimize employee leave management (vacations, sick leave, late arrivals, etc.). It allows managers to register and manage requests on a centralized platform, facilitating viewing, approval, and tracking by management and human resources.",
+      project1Desc2: "This application was developed for the company where I currently work in order to minimize the manual process and have better control of personal information.",
+      project1Desc3: "If you'd like to see the project, you can visit the attached address. And if you'd like to see an explanatory video, you can access the DEMO.",
+      project2Title: "Pokemon Console Game",
+      project2Desc: "A console-based battle game built with core JavaScript fundamentals. Implements functions, arrays, classes, loops, and module exports. Two pokémons battle turn-by-turn with interactive user selection.",
+      project2Desc2: "Project developed to pass the basic knowledge exam in software development at the DEVLIVE academy, applying good programming practices.",
+  
+      // Experience
+      experienceTitle: "Experience",
+      exp1Role: "Administrative Assistant",
+      exp1Meta: "Grupo Dipo · Aug 2022 — Present",
+      exp1Desc: "Reviewing and documenting production data, communicating with management for analysis. Supervising staff and production, purchasing operational supplies, and coordinating cross-departmental communication.",
+      exp2Role: "Administrative Assistant",
+      exp2Meta: "Alteco S.A · Sep 2017 — Feb 2022",
+      exp2Desc: "Customer service, quoting, and communication with clients and suppliers. Monitoring project progress and managing after-sales service.",
+  
+      // Education
+      educationTitle: "Education",
+      edu1Title: "Fidelitas University",
+      edu1Meta: "2021 — Present",
+      edu1Item1: "Systems Engineering (in progress)",
+      edu1Item2: "Industrial Engineering (advanced)",
+      edu2Title: "DEVLIVE ACADEMY (Software Development)",
+      edu2Meta: "January 2025 — December 2025",
+      edu2Intro: "Full Stack Software Development Course. Comprehensive training focused on web application development, covering frontend, backend, and testing.",
+      edu2Item1: "Agile Methodology, Dev Environment, Version Control System, Fundamentals.",
+      edu2Item2: "OOP, Data Structures.",
+      edu2Item3: "Networking: APIs, Postman, Auth, Fetch, Async, HTTP Methods.",
+      edu2Item4: "Testing: Frameworks, Automation, Manual Testing, E2E, Unit Testing.",
+      edu2Item5: "Solid Principles, Design Patterns.",
+      edu2Item6: "Frontend: React, WebPack, Forms, UI, Props, React Router.",
+      edu2Item7: "Backend: Postgres, Auth, Nest.js, ORM, DTO, Prisma.",
+      edu2Outro: "Featured Project: Developing a functional web application using the knowledge acquired during the course.",
+      edu3Title: "Web Development Course",
+      edu3Meta: "2024",
+      edu3Intro: "Personalized course in HTML, CSS and basic Javascript, learning basic and necessary concepts for understanding the languages.",
+      edu3Item1: "HTML5, CSS, JavaScript fundamentals.",
+      edu4Title: "Universidad Juan Pablo II",
+      edu4Meta: "English B1–B2 Certificate",
+  
+      // Skills
+      skillsTitle: "Skills",
+      skillLang: "Languages",
+      skillFrameworks: "Frameworks",
+      skillDB: "Databases",
+      skillTools: "Tools",
+  
+      // Footer
+      footer: "© 2025 Leonardo Monge · Costa Rica",
+    },
+    es: {
+      // Navbar
+      navAbout: "Sobre mí",
+      navWhy: "¿Por qué yo?",
+      navProjects: "Proyectos",
+      navExperience: "Experiencia",
+      navEducation: "Educación",
+      navSkills: "Habilidades",
+      contactBtn: "Contáctame ▾",
+  
+      // About
+      availableTag: "⚡ Disponible para trabajar",
+      aboutTitle: "Hola, soy Leonardo Monge",
+      aboutDesc: "Desarrollador Full Stack en formación con experiencia en TypeScript, React y PostgreSQL, entre otras. Enfocado en el desarrollo de aplicaciones web para la optimización de procesos. Busco una oportunidad como desarrollador junior o pasante.",
+  
+      // Why
+      whyTitle: "¿Por qué trabajar conmigo?",
+      why1Title: "Aprendizaje Rápido",
+      why1Desc: "Estudio y programo todos los días; estoy seguro de que puedo aprender y adaptarme a cualquier nueva tecnología.",
+      why2Title: "Desarrollo con IA",
+      why2Desc: "Apasionado por la inteligencia artificial, con enfoque en el aprendizaje continuo y la aplicación de las últimas tecnologías.",
+      why3Title: "Resolución de Problemas",
+      why3Desc: "Hoy no basta con saber programar; la clave está en detectar y resolver problemas con el desarrollo de software.",
+      why4Title: "Comunicación Clara",
+      why4Desc: "Más de 10 años trabajando en equipo, estoy seguro de que es la mejor manera de trabajar para alcanzar nuestros objetivos.",
+      why5Title: "Comprometido",
+      why5Desc: "Comprometido con el diseño y desarrollo de soluciones de software eficientes y escalables.",
+      why6Title: "Visión a Largo Plazo",
+      why6Desc: "En unos años me veo como desarrollador Full Stack liderando proyectos, aplicando las tecnologías más innovadoras y contribuyendo al desarrollo de la empresa.",
+  
+      // Projects
+      projectsTitle: "Proyectos",
+      project1Title: "Bitácora Digital",
+      project1Desc: "Aplicación web desarrollada para digitalizar y optimizar la gestión de ausencias del personal (vacaciones, incapacidades, tardías, etc.). Permite a los encargados registrar y gestionar solicitudes en una plataforma centralizada.",
+      project1Desc2: "Esta aplicación fue desarrollada para la empresa donde trabajo actualmente con el fin de minimizar el proceso manual y tener mejor control de la información del personal.",
+      project1Desc3: "Si desea ver el proyecto, puede visitar la dirección adjunta. Y si desea ver un video explicativo, puede acceder al DEMO.",
+      project2Title: "Juego de Consola Pokémon",
+      project2Desc: "Un juego de batalla por consola construido con fundamentos de JavaScript. Implementa funciones, arreglos, clases, bucles y exportación de módulos. Dos pokémons se enfrentan por turnos con selección interactiva.",
+      project2Desc2: "Proyecto desarrollado para aprobar el examen de conocimientos básicos en desarrollo de software en la academia DEVLIVE, aplicando buenas prácticas de programación.",
+  
+      // Experience
+      experienceTitle: "Experiencia",
+      exp1Role: "Asistente Administrativo",
+      exp1Meta: "Grupo Dipo · Ago 2022 — Presente",
+      exp1Desc: "Revisión y documentación de datos de producción, comunicación con gerencia para análisis. Supervisión de personal y producción, compra de suministros operativos y coordinación entre departamentos.",
+      exp2Role: "Asistente Administrativo",
+      exp2Meta: "Alteco S.A · Sep 2017 — Feb 2022",
+      exp2Desc: "Atención al cliente, cotizaciones y comunicación con clientes y proveedores. Seguimiento de proyectos y gestión de servicio postventa.",
+  
+      // Education
+      educationTitle: "Educación",
+      edu1Title: "Universidad Fidelitas",
+      edu1Meta: "2021 — Presente",
+      edu1Item1: "Ingeniería en Sistemas (en curso)",
+      edu1Item2: "Ingeniería Industrial (avanzado)",
+      edu2Title: "DEVLIVE ACADEMY (Desarrollo de Software)",
+      edu2Meta: "Enero 2025 — Diciembre 2025",
+      edu2Intro: "Curso de Desarrollo de Software Full Stack. Formación integral enfocada en el desarrollo de aplicaciones web, cubriendo frontend, backend y testing.",
+      edu2Item1: "Metodología Ágil, Entorno de Desarrollo, Control de Versiones, Fundamentos.",
+      edu2Item2: "POO, Estructuras de Datos.",
+      edu2Item3: "Redes: APIs, Postman, Auth, Fetch, Async, Métodos HTTP.",
+      edu2Item4: "Testing: Frameworks, Automatización, Testing Manual, E2E, Unit Testing.",
+      edu2Item5: "Principios SOLID, Patrones de Diseño.",
+      edu2Item6: "Frontend: React, WebPack, Formularios, UI, Props, React Router.",
+      edu2Item7: "Backend: Postgres, Auth, Nest.js, ORM, DTO, Prisma.",
+      edu2Outro: "Proyecto Destacado: Desarrollo de una aplicación web funcional utilizando los conocimientos adquiridos durante el curso.",
+      edu3Title: "Curso de Desarrollo Web",
+      edu3Meta: "2024",
+      edu3Intro: "Curso personalizado en HTML, CSS y JavaScript básico, aprendiendo conceptos básicos y necesarios para la comprensión de los lenguajes.",
+      edu3Item1: "Fundamentos de HTML5, CSS, JavaScript.",
+      edu4Title: "Universidad Juan Pablo II",
+      edu4Meta: "Certificado de Inglés B1–B2",
+  
+      // Skills
+      skillsTitle: "Habilidades",
+      skillLang: "Lenguajes",
+      skillFrameworks: "Frameworks",
+      skillDB: "Bases de Datos",
+      skillTools: "Herramientas",
+  
+      // Footer
+      footer: "© 2025 Leonardo Monge · Costa Rica",
+    }
+  };

@@ -1,154 +1,309 @@
 <!DOCTYPE html>
 <html>
-    
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Pagina Web Leo</title>
+  <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="page.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leonardo Monge · Software Engineer</title>
+  
+    <!-- Fuentes de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-</head>
-<body>
-
-  <div class="menu" >
-    <p data-seccion="Projects" onclick="mostrarinfo(this)"> Projects  </p>
-    <p data-seccion="Skills" onclick="mostrarinfo(this)"> skills </p>
-    <p data-seccion="Experience" onclick="mostrarinfo(this)"> Experience</p>
-    <p data-seccion="Education" onclick="mostrarinfo(this)"> Education</p>
-    <p data-seccion="PersonalInfo" onclick="mostrarinfo(this)"> Personal-Info</p>
-  </div>
-
-
-  <div style="display: flex; gap: 20px; align-items: flex-start" >
-    <div class="divLeoPersonal">
-      <h3 class="anton-regular"> Leonardo Monge </h3>
-      <p class="subtitulo"> Software Engineer in Progress >>> </p> 
-    </div> 
-    
-    <div class="divDescripcion" >
-      <p>
-        A Systems Engineering student training as a Full Stack Developer, 
-        I have basic knowledge of HTML, CSS, and JavaScript,Visual Studio and GitHub. 
-        I have experience in the industrial sector 
-        in administration, purchasing, and process coordination. 
-        I have organizational and effective communication skills. 
-        I'm looking for an opportunity in the technology sector where I can combine 
-        my experience with software development.
-      </p>
-    </div>
-  </div>
-   
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
   
-   <div class="formatoProject " id="Projects" >
-     <div style="display: flex; gap: 20px; align-items: flex-start" >
-      <img src="img/imgtwo.PNG" alt="Imagen 2" class="imagen-pequena">
-      <img src="img/imgone.PNG" alt="Imagen 1" class="imagen-pequena">
-     </div>
-     <p>It's a simple console game that require basci knowlegde of fundamentals.
-      It implemnets functions, arrays, classes, loops, export functions and
-      how manage and create a project. The gameplay is basic, two pokemons battle
-      each other, and decreases. I chose this project to implement feactures
-      that allow users to select and interact with it.
-      </p>
-     <p class="regresar" onclick="ocultarinfo()">Return</p>
-   </div>
+    <!-- Íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+    <!-- Tu CSS -->
+    <link rel="stylesheet" href="page.css">
+  </head>    
 
 
-
-   <div class="formatoSkills" id="Skills">
-    <h3 style="text-align: center;" > Skills </h3>
-    <ul>
-      <li>Languages : JavaScript, Java</li> 
-      <li>React, Node.js</li> 
-      <li>DataBases: MySQL.</li>   
-      <li>Tools: Git, GitHub,Postman,</li>  
-      <li>VSCode</li>  
-      <li>Others: APIsRest, Object-Based</li>  
-      <li>Programing, Basics Scrum</li>  
-    </ul>   
-    <p class="regresar" onclick="ocultarinfo()">Return</p>
-  </div>
-   
-
-
-  <div  class="formatoExperience" id="Experience" >
-    <h3 style="text-align: center;">Experience</h3>  
-  <div> 
-    <div >
-      <p>Administrative Assistant</p>
-      <p>Grupo Dipo. ( August 2022-Currently )</p>
-      <li>Experience reviewing and documenting production data, communicating with
-          management and other departments for analysis. Supervising staff, production,
-          and preparing reports. Purchasing operational supplies. Effectively communicating
-          with various departments of the company to ensure compliance with operational
-          objectives.</li>
+<body>
+  <nav id="navbar">
+    <div class="nav-container">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#why">Why me?</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li class="nav-contact-wrapper">
+          <button class="lang-btn" onclick="toggleLang()" id="langBtn">ES</button>
+          <button class="nav-contact" onclick="toggleDropdown()">Contact me ▾</button>
+          <div class="contact-dropdown" id="contactDropdown">
+            <span class="dropdown-phone"><i class="fas fa-phone"></i> (+506) 7261-2066</span>
+            <a href="mailto:leonardomonge19@gmail.com"><i class="fas fa-envelope"></i> leonardomonge19@gmail.com</a>
+          </div>
+        </li>
+      </ul>
     </div>
-     
-    <div >
-      <p>Administrative Assistant</p>
-      <p>Alteco S.A ( September 2017 - February 2022)</p>
-      <li>Experience in customer service, quoting, and assertive communication with clients,
-          suppliers, and internal staff. Focused on correctly interpreting requirements
-          and providing effective solutions. Accustomed to monitoring project progress and
-          managing after-sales service. Committed to continuous improvement and quality
-          at every stage of the process</li>
-    </div>
-  </div>
-    <p class="regresar" onclick="ocultarinfo()">Return</p>
-  </div>
+  </nav>
+
+  <main>
+
+    <section id="about">
+      <div class="about-container">
+    
+        <!-- Texto e links -->
+        <div class="about-text">
+           <p class="available-tag">⚡ Available for work</p>
+          <h1>Hi, I'm Leonardo Monge</h1>
+          <p class="about-desc">
+            Full Stack Developer in training with experience in TypeScript, React, and PostgreSQL,
+            among others. Focused on web application development for process optimization. 
+            Seeking a junior developer or internship opportunity.
+          </p>
+          <div class="about-links">
+            <a href="https://github.com/leonardomonge" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/leonardo-monge-2833251ba/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+    
+        <!-- Foto -->
+        <div class="about-photo">
+          <img src="img/fotoleo.jpeg" alt="Leonardo Monge">
+        </div>
+    
+      </div>
+    </section>
+
+
+
+    <section id="why">
+      <h2>Why work with me?</h2>
+      <div class="why-grid">
+    
+        <div class="why-card">
+          <i class="fas fa-brain"></i>
+          <h4>Fast Learner</h4>
+          <p>I study and program every day; I am sure I can learn and adapt to any new technology.</p>
+        </div>
+
+        <div class="why-card">
+          <i class="fas fa-robot"></i>
+          <h4>AI-Driven Development</h4>
+          <p>Passionate about artificial intelligence, with a focus on continuous learning and the application of the latest technologies.</p>
+        </div>
+
+        <div class="why-card">
+          <i class="fas fa-puzzle-piece"></i>
+          <h4>Problem Solver</h4>
+          <p>Today, knowing how to program is not enough; the key is detecting and solving 
+            problems with software development.</p>
+        </div>
+    
+        <div class="why-card">
+          <i class="fas fa-comments"></i>
+          <h4>Clear Communication</h4>
+          <p>10+ years working as a team, I'm sure it's the best way to work to achieve our goals.</p>
+        </div>
+    
+        <div class="why-card">
+          <i class="fas fa-handshake"></i>
+          <h4>Committed</h4>
+          <p>Committed to the design and development of efficient and scalable software solutions.</p>
+        </div>
+
+        <div class="why-card">
+          <i class="fas fa-rocket"></i>
+          <h4>Long-Term Vision</h4>
+          <p>In a few years I see myself as a Full Stack developer leading projects, applying the most innovative technologies and contributing to the development of the company.</p>
+        </div>
+    
+      </div>
+    </section>
 
 
 
 
-  <div class="formatoEducacion"id="Education" >
-    <h3 style="text-align: center ;">Education</h3>
-    <p>Fidelitas University ( July 2021-Currently)</p>
-    <li>Intermediate Student Ing. Systems 2021-Currently</li> 
-    <li>Advanced Student Ing. Industrial 2017-2021</li> 
-    <li>Advanced Course Excel 2016</li> 
 
-    <p>Web Development Course ( 2024 )</p>
-    <li>Personal course completed in HTML5, CSS, JavaScript. Basic Concepts
-     focused on web development</li>
+    <section id="projects">
+      <h2>Projects</h2>
 
-    <p>Sofware Developer Course DEVLIVE ( 2025 - Currently )</p>
-    <li>Course focused on the main needs for software development, covering
-    topics such as: Dev Enviroment, Fundamentals, Version Control System
-    Objects, Data Structures, Networking, Testing, Desing Patterns,
-    Frontend, React JS, Backend.</li> 
+      <div class="project-card">
+        <h3>Digital logBook</h3>
+        <p>
+            A web application developed to digitize and optimize employee leave management
+           (vacations, sick leave, late arrivals, etc.). It allows managers to register
+            and manage requests on a centralized platform, facilitating viewing, approval, 
+            and tracking by management and human resources.
+        </p>
+        <div class="project-screenshots">
+          <img src="img/bitacora1.PNG" alt="screenshot 1">
+        </div>
+        <p>
+          This application was developed for the company where I currently work in order 
+          to minimize the manual process and have better control of personal information.
+        </p>  
+        <p>
+          If you'd like to see the project, you can visit the attached address. 
+          And if you'd like to see an explanatory video, you can access the DEMO..
+        </p>  
+        <div class="project-links">
+          <a href="https://github.com/leonardomonge/Bitacora-Digital" target="_blank"><i class="fab fa-github"></i> Code</a>
+          <a href="https://intelligent-nourishment-production.up.railway.app" target="_blank"><i class="fas fa-external-link-alt"></i> Link</a>
+          <a href="https://youtu.be/H_K6rtrplGU" target="_blank"><i class="fab fa-youtube"></i> Demo</a>
+        </div>
+        <div class="project-tags">
+          <span>React</span>
+          <span>PostgreSQL</span>
+          <span>Nest.js</span>
+          <span>Typescript</span>
+          <span>Postman</span>
+          <span>Vite</span>
+          <span>Tailwind</span>
+          <span>Railway</span>
+        </div>
+      </div>
 
-    <p>University Juan Pablo II</p>
-    <li>Intermediate English Certificate B1-B2</li> 
-    <p class="regresar" onclick="ocultarinfo()">Return</p>
-  </div>
 
 
 
-  <div class="formatoPersonalInfo"id="PersonalInfo" >
-    <h3 style="text-align: center;">Personal-Info</h3>
-    <li>Costarricense.</li> 
-    <li>Guadalupe - Cartago.</li> 
-    <li>Phone : (+506) 7261-2066.</li> 
-    <li>leonardomonge19@gmail.com</li>  
-      
-    <p class="regresar" onclick="ocultarinfo()">Return</p>
-  </div>
 
-  <div class="social-icons">
-    <a href="https://www.facebook.com/leonardo.monge.79" target="_blank"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://www.linkedin.com/in/leonardo-monge-2833251ba/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-    <a href="https://github.com/leonardomonge" target="_blank"><i class="fab fa-github"></i></a>
-  </div>
+      <div class="project-card">
+        <h3>Pokemon Console Game</h3>
+        <p>
+          A console-based battle game built with core JavaScript fundamentals.
+          Implements functions, arrays, classes, loops, and module exports.
+          Two pokémons battle turn-by-turn with interactive user selection.
+        </p>
+        <div class="project-screenshots">
+          <img src="img/imgone.PNG" alt="Pokemon game screenshot 1">
+          <p>
+            Project developed to pass the basic knowledge exam in software development at
+            the DEVLIVE academy, applying good programming practices.
+          </p>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/leonardomonge/PokemonGame/tree/game" target="_blank"><i class="fab fa-github"></i> Code</a>
+        </div>
+        <div class="project-tags">
+          <span>JavaScript</span>
+          <span>OOP</span>
+          <span>Node.js</span>
+        </div>
+      </div>
 
+    </section>
 
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <div class="exp-item">
+        <h3>Administrative Assistant</h3>
+        <p class="exp-meta">Grupo Dipo · Aug 2022 — Present</p>
+        <p>Reviewing and documenting production data, communicating with management
+        for analysis. Supervising staff and production, purchasing operational supplies,
+        and coordinating cross-departmental communication.</p>
+      </div>
+
+      <div class="exp-item">
+        <h3>Administrative Assistant</h3>
+        <p class="exp-meta">Alteco S.A · Sep 2017 — Feb 2022</p>
+        <p>Customer service, quoting, and communication with clients and suppliers.
+        Monitoring project progress and managing after-sales service.</p>
+      </div>
+
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <div class="edu-item">
+        <h3>Fidelitas University</h3>
+        <p class="edu-meta">2021 — Present</p>
+        <ul>
+          <li>Systems Engineering (in progress)</li>
+          <li>Industrial Engineering (advanced)</li>
+        </ul>
+      </div>
+
+      <div class="edu-item">
+        <h3>DEVLIVE ACADEMY (Software Development)</h3>
+        <p class="edu-meta"> January 2025 — December 2025</p>
+        <p class="edu-intro">Full Stack Software Development Course, Comprehensive training focused on web application development, covering frontend, backend, and testing.</p>
+        <ul>
+          <li>Agile Methodology,Dev Evironment,Version Control System, Fundamentals.</li>
+          <li>OOP,Data Structures.</li>
+          <li>Networking: APIS,Postman,Auth,Fecth,Async,HTTP Methods.</li>
+          <li>Testing: Frameworks,Automation,ManualTesting,E2E,UnitTesting.</li>
+          <li>Solid Principles,Design Patterns</li>
+          <li>Frontend: React,WebPack,Forms,UI,Props,ReactRouter.</li>
+          <li>Backend: Postgres,Auth,Nest.js,ORM,DTO,Prisma. </li>
+          </p>
+        </ul>
+        <p class="edu-outro">Featured Project: Developing a functional web application using the knowledge acquired during the course.</p>
+      </div>
+
+      <div class="edu-item">
+        <h3>Web Development Course</h3>
+        <p class="edu-meta">2024</p>
+        <p class="edu-intro">Personalized course in HTML, CSS and basic Javascript, learning basic and 
+          necessary concepts for understanding the languages</p>
+        <ul>
+          <li>HTML5, CSS, JavaScript fundamentals</li>
+        </ul>
+      </div>
+
+      <div class="edu-item">
+        <h3>Universidad Juan Pablo II</h3>
+        <p class="edu-meta">English B1–B2 Certificate</p>
+      </div>
+
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Languages</h4>
+          <ul>
+            <li>-JavaScript</li>
+            <li>-Java</li>
+            <li>-HTML5</li>
+            <li>-CSS</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Frameworks</h4>
+          <ul>
+            <li>-React</li>
+            <li>-Node.js</li>
+            <li>-Nest.js</li>
+            <li>-Tailwind CSS</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Databases</h4>
+          <ul>
+            <li>-PostgreSQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Tools</h4>
+          <ul>
+            <li>-Git & GitHub</li>
+            <li>-Postman</li>
+            <li>-VSCode</li>
+            <li>-Prisma (ORM, database modeling)</li>
+            <li>-VSCode</li>
+            <li>-Vite</li>
+            <li>-Prompt engineering for development (Claude ai)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Leonardo Monge · Costa Rica</p>
+  </footer>
+
+  <script src="translations.js"></script>
+  <script src="page.js"></script>
 
 </body>
-
-<script src="page.js"></script>  
+  
 </html>
