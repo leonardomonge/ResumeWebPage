@@ -11,8 +11,8 @@ const translations = {
   
       // About
       availableTag: "⚡ Available for work",
-      aboutTitle: "Hi, I'm Leonardo Monge",
-      aboutDesc: "Full Stack Developer in training with experience in TypeScript, React, and PostgreSQL,among others. Focused on web application development for process optimization.Seeking a junior developer or internship opportunity. ",
+      aboutTitle: "Junior Full Stack Developer",
+      aboutDesc: "With experienced in TypeScript, React, and PostgreSQL. Skilled in building scalable web applications. Focused on optimizing processes and improving data management. Seeking a Junior Developer or Internship opportunity.",
   
       // Why
       whyTitle: "Why work with me?",
@@ -32,7 +32,11 @@ const translations = {
       // Projects
       projectsTitle: "Projects",
       project1Title: "Digital logBook",
-      project1Desc: "A web application developed to digitize and optimize employee leave management (vacations, sick leave, late arrivals, etc.). It allows managers to register and manage requests on a centralized platform, facilitating viewing, approval, and tracking by management and human resources.",
+      project1Title: "Digital logBook",
+      project1Li1: "Developed a full-stack web application to digitize employee leave management",
+      project1Li2: "Implemented JWT authentication and role-based access control (RBAC)",
+      project1Li3: "Built RESTful APIs for request management, approval workflows, and data handling",
+      project1Li4: "Improved workflow efficiency by reducing manual processes",
       project1Desc2: "This application was developed for the company where I currently work in order to minimize the manual process and have better control of personal information.",
       project1Desc3: "If you'd like to see the project, you can visit the attached address. And if you'd like to see an explanatory video, you can access the DEMO.",
       project2Title: "Pokemon Console Game",
@@ -43,10 +47,14 @@ const translations = {
       experienceTitle: "Experience",
       exp1Role: "Administrative Assistant",
       exp1Meta: "Grupo Dipo · Aug 2022 — Present",
-      exp1Desc: "Reviewing and documenting production data, communicating with management for analysis. Supervising staff and production, purchasing operational supplies, and coordinating cross-departmental communication.",
+      exp1Li1: "Coordination of internal processes and organization of operational data across departments.",
+      exp1Li2: "Preparation of reports and documentation to support decision-making and improve efficiency.",
+      exp1Li3: "Collaboration with teams to optimize workflows.",
+      exp1Li4: "Developed a comprehensive web application to digitize employee permission management, reducing manual processes and improving data control.",
       exp2Role: "Administrative Assistant",
       exp2Meta: "Alteco S.A · Sep 2017 — Feb 2022",
-      exp2Desc: "Customer service, quoting, and communication with clients and suppliers. Monitoring project progress and managing after-sales service.",
+      exp2Li1: "Customer service, quoting, and communication with clients and suppliers.",
+      exp2Li2: "Monitoring project progress and managing after-sales service.",
   
       // Education
       educationTitle: "Education",
@@ -94,8 +102,8 @@ const translations = {
   
       // About
       availableTag: "⚡ Disponible para trabajar",
-      aboutTitle: "Hola, soy Leonardo Monge",
-      aboutDesc: "Desarrollador Full Stack en formación con experiencia en TypeScript, React y PostgreSQL, entre otras. Enfocado en el desarrollo de aplicaciones web para la optimización de procesos. Busco una oportunidad como desarrollador junior o pasante.",
+      aboutTitle: "Desarrollador Full Stack Junior.",
+      aboutDesc: "Con experiencia en TypeScript, React y PostgreSQL. Experiencia en la creación de aplicaciones web escalables. Enfocado en la optimización de procesos y la mejora de la gestión de datos. Busco una oportunidad como Desarrollador Junior o una pasantía.",
   
       // Why
       whyTitle: "¿Por qué trabajar conmigo?",
@@ -115,7 +123,11 @@ const translations = {
       // Projects
       projectsTitle: "Proyectos",
       project1Title: "Bitácora Digital",
-      project1Desc: "Aplicación web desarrollada para digitalizar y optimizar la gestión de ausencias del personal (vacaciones, incapacidades, tardías, etc.). Permite a los encargados registrar y gestionar solicitudes en una plataforma centralizada.",
+      project1Title: "Bitácora Digital",
+      project1Li1: "Desarrollé una aplicación web full-stack para digitalizar la gestión de permisos de empleados",
+      project1Li2: "Implementé autenticación JWT y control de acceso basado en roles (RBAC)",
+      project1Li3: "Construí APIs RESTful para gestión de solicitudes, flujos de aprobación y manejo de datos",
+      project1Li4: "Mejoré la eficiencia del flujo de trabajo reduciendo los procesos manuales",
       project1Desc2: "Esta aplicación fue desarrollada para la empresa donde trabajo actualmente con el fin de minimizar el proceso manual y tener mejor control de la información del personal.",
       project1Desc3: "Si desea ver el proyecto, puede visitar la dirección adjunta. Y si desea ver un video explicativo, puede acceder al DEMO.",
       project2Title: "Juego de Consola Pokémon",
@@ -126,10 +138,14 @@ const translations = {
       experienceTitle: "Experiencia",
       exp1Role: "Asistente Administrativo",
       exp1Meta: "Grupo Dipo · Ago 2022 — Presente",
-      exp1Desc: "Revisión y documentación de datos de producción, comunicación con gerencia para análisis. Supervisión de personal y producción, compra de suministros operativos y coordinación entre departamentos.",
+      exp1Li1: "Coordinación de procesos internos y organización de datos operativos entre departamentos.",
+      exp1Li2: "Preparación de reportes y documentación para apoyar la toma de decisiones y mejorar la eficiencia.",
+      exp1Li3: "Colaboración con equipos para optimizar flujos de trabajo.",
+      exp1Li4: "Desarrollé una aplicación web para digitalizar la gestión de permisos de empleados, reduciendo procesos manuales y mejorando el control de datos.",
       exp2Role: "Asistente Administrativo",
       exp2Meta: "Alteco S.A · Sep 2017 — Feb 2022",
-      exp2Desc: "Atención al cliente, cotizaciones y comunicación con clientes y proveedores. Seguimiento de proyectos y gestión de servicio postventa.",
+      exp2Li1: "Atención al cliente, cotizaciones y comunicación con clientes y proveedores.",
+      exp2Li2: "Seguimiento de proyectos y gestión de servicio postventa.",
   
       // Education
       educationTitle: "Educación",
@@ -139,7 +155,7 @@ const translations = {
       edu1Item2: "Ingeniería Industrial (avanzado)",
       edu2Title: "DEVLIVE ACADEMY (Desarrollo de Software)",
       edu2Meta: "Enero 2025 — Diciembre 2025",
-      edu2Intro: "Curso de Desarrollo de Software Full Stack. Formación integral enfocada en el desarrollo de aplicaciones web, cubriendo frontend, backend y testing.",
+      edu2Intro: "Curso de Desarrollo de Software Full Stack. Formación integral enfocada en el desarrollo general de sofware, cubriendo frontend, backend y testing.",
       edu2Item1: "Metodología Ágil, Entorno de Desarrollo, Control de Versiones, Fundamentos.",
       edu2Item2: "POO, Estructuras de Datos.",
       edu2Item3: "Redes: APIs, Postman, Auth, Fetch, Async, Métodos HTTP.",

@@ -62,26 +62,44 @@ function toggleLang() {
   whyCards[5].querySelector('h4').textContent = t.why6Title;
   whyCards[5].querySelector('p').textContent = t.why6Desc;
 
-  // Projects
-  const projectCards = document.querySelectorAll('.project-card');
-  document.querySelector('#projects h2').textContent = t.projectsTitle;
-  projectCards[0].querySelector('h3').textContent = t.project1Title;
-  projectCards[0].querySelectorAll('p')[0].textContent = t.project1Desc;
-  projectCards[0].querySelectorAll('p')[1].textContent = t.project1Desc2;
-  projectCards[0].querySelectorAll('p')[2].textContent = t.project1Desc3;
-  projectCards[1].querySelector('h3').textContent = t.project2Title;
-  projectCards[1].querySelectorAll('p')[0].textContent = t.project2Desc;
-  projectCards[1].querySelectorAll('p')[1].textContent = t.project2Desc2;
+ // Projects
+const projectCards = document.querySelectorAll('.project-card');
+document.querySelector('#projects h2').textContent = t.projectsTitle;
+
+// Project 1 - Digital logBook
+projectCards[0].querySelector('h3').textContent = t.project1Title;
+const p1Items = projectCards[0].querySelectorAll('li');
+p1Items[0].textContent = t.project1Li1;
+p1Items[1].textContent = t.project1Li2;
+p1Items[2].textContent = t.project1Li3;
+p1Items[3].textContent = t.project1Li4;
+document.querySelector('.project1-desc2').textContent = t.project1Desc2;
+document.querySelector('.project1-desc3').textContent = t.project1Desc3;
+
+// Project 2 - Pokemon
+projectCards[1].querySelector('h3').textContent = t.project2Title;
+projectCards[1].querySelectorAll('p')[0].textContent = t.project2Desc;
+projectCards[1].querySelectorAll('p')[1].textContent = t.project2Desc2;
 
   // Experience
   const expItems = document.querySelectorAll('.exp-item');
   document.querySelector('#experience h2').textContent = t.experienceTitle;
+  
+  // Grupo Dipo
   expItems[0].querySelector('h3').textContent = t.exp1Role;
   expItems[0].querySelector('.exp-meta').textContent = t.exp1Meta;
-  expItems[0].querySelector('p:last-child').textContent = t.exp1Desc;
+  const exp1Items = expItems[0].querySelectorAll('li');
+  exp1Items[0].textContent = t.exp1Li1;
+  exp1Items[1].textContent = t.exp1Li2;
+  exp1Items[2].textContent = t.exp1Li3;
+  exp1Items[3].textContent = t.exp1Li4;
+  
+  // Alteco
   expItems[1].querySelector('h3').textContent = t.exp2Role;
   expItems[1].querySelector('.exp-meta').textContent = t.exp2Meta;
-  expItems[1].querySelector('p:last-child').textContent = t.exp2Desc;
+  const exp2Items = expItems[1].querySelectorAll('li');
+  exp2Items[0].textContent = t.exp2Li1;
+  exp2Items[1].textContent = t.exp2Li2;
 
   // Education
   const eduItems = document.querySelectorAll('.edu-item');
