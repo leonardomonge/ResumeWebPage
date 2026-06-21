@@ -1,184 +1,211 @@
 const translations = {
-    en: {
-      // Navbar
-      navAbout: "About",
-      navWhy: "Why me?",
-      navProjects: "Projects",
-      navExperience: "Experience",
-      navEducation: "Education",
-      navSkills: "Skills",
-      contactBtn: "Contact me ▾",
-  
-      // About
-      availableTag: "⚡ Available for work",
-      aboutTitle: "Junior Full Stack Developer",
-      aboutDesc: "With experienced in TypeScript, React, and PostgreSQL. Skilled in building scalable web applications. Focused on optimizing processes and improving data management. Seeking a Junior Developer or Internship opportunity.",
-  
-      // Why
-      whyTitle: "Why work with me?",
-      why1Title: "Fast Learner",
-      why1Desc: "I study and program every day; I am sure I can learn and adapt to any new technology.",
-      why2Title: "AI-Driven Development",
-      why2Desc: "Passionate about artificial intelligence, with a focus on continuous learning and the application of the latest technologies.",
-      why3Title: "Problem Solver",
-      why3Desc: "Today, knowing how to program is not enough; the key is detecting and solving problems with software development.",
-      why4Title: "Clear Communication",
-      why4Desc: "10+ years working as a team, I'm sure it's the best way to work to achieve our goals.",
-      why5Title: "Committed",
-      why5Desc: "Committed to the design and development of efficient and scalable software solutions.",
-      why6Title: "Long-Term Vision",
-      why6Desc: "In a few years I see myself as a Full Stack developer leading projects, applying the most innovative technologies and contributing to the development of the company.",
-  
-      // Projects
-      projectsTitle: "Projects",
-      project1Title: "Digital logBook",
-      project1Title: "Digital logBook",
-      project1Li1: "Developed a full-stack web application to digitize employee leave management",
-      project1Li2: "Implemented JWT authentication and role-based access control (RBAC)",
-      project1Li3: "Built RESTful APIs for request management, approval workflows, and data handling",
-      project1Li4: "Improved workflow efficiency by reducing manual processes",
-      project1Desc2: "This application was developed for the company where I currently work in order to minimize the manual process and have better control of personal information.",
-      project1Desc3: "If you'd like to see the project, you can visit the attached address. And if you'd like to see an explanatory video, you can access the DEMO.",
-      project2Title: "Pokemon Console Game",
-      project2Desc: "A console-based battle game built with core JavaScript fundamentals. Implements functions, arrays, classes, loops, and module exports. Two pokémons battle turn-by-turn with interactive user selection.",
-      project2Desc2: "Project developed to pass the basic knowledge exam in software development at the DEVLIVE academy, applying good programming practices.",
-  
-      // Experience
-      experienceTitle: "Experience",
-      exp1Role: "Administrative Assistant",
-      exp1Meta: "Grupo Dipo · Aug 2022 — Present",
-      exp1Li1: "Coordination of internal processes and organization of operational data across departments.",
-      exp1Li2: "Preparation of reports and documentation to support decision-making and improve efficiency.",
-      exp1Li3: "Collaboration with teams to optimize workflows.",
-      exp1Li4: "Developed a comprehensive web application to digitize employee permission management, reducing manual processes and improving data control.",
-      exp2Role: "Administrative Assistant",
-      exp2Meta: "Alteco S.A · Sep 2017 — Feb 2022",
-      exp2Li1: "Customer service, quoting, and communication with clients and suppliers.",
-      exp2Li2: "Monitoring project progress and managing after-sales service.",
-  
-      // Education
-      educationTitle: "Education",
-      edu1Title: "Fidelitas University",
-      edu1Meta: "2021 — Present",
-      edu1Item1: "Systems Engineering (in progress)",
-      edu1Item2: "Industrial Engineering (advanced)",
-      edu2Title: "DEVLIVE ACADEMY (Software Development)",
-      edu2Meta: "January 2025 — December 2025",
-      edu2Intro: "Full Stack Software Development Course. Comprehensive training focused on web application development, covering frontend, backend, and testing.",
-      edu2Item1: "Agile Methodology, Dev Environment, Version Control System, Fundamentals.",
-      edu2Item2: "OOP, Data Structures.",
-      edu2Item3: "Networking: APIs, Postman, Auth, Fetch, Async, HTTP Methods.",
-      edu2Item4: "Testing: Frameworks, Automation, Manual Testing, E2E, Unit Testing.",
-      edu2Item5: "Solid Principles, Design Patterns.",
-      edu2Item6: "Frontend: React, WebPack, Forms, UI, Props, React Router.",
-      edu2Item7: "Backend: Postgres, Auth, Nest.js, ORM, DTO, Prisma.",
-      edu2Outro: "Featured Project: Developing a functional web application using the knowledge acquired during the course.",
-      edu3Title: "Web Development Course",
-      edu3Meta: "2024",
-      edu3Intro: "Personalized course in HTML, CSS and basic Javascript, learning basic and necessary concepts for understanding the languages.",
-      edu3Item1: "HTML5, CSS, JavaScript fundamentals.",
-      edu4Title: "Universidad Juan Pablo II",
-      edu4Meta: "English B1–B2 Certificate",
-  
-      // Skills
-      skillsTitle: "Skills",
-      skillLang: "Languages",
-      skillFrameworks: "Frameworks",
-      skillDB: "Databases",
-      skillTools: "Tools",
-  
-      // Footer
-      footer: "© 2025 Leonardo Monge · Costa Rica",
-    },
-    es: {
-      // Navbar
-      navAbout: "Sobre mí",
-      navWhy: "¿Por qué yo?",
-      navProjects: "Proyectos",
-      navExperience: "Experiencia",
-      navEducation: "Educación",
-      navSkills: "Habilidades",
-      contactBtn: "Contáctame ▾",
-  
-      // About
-      availableTag: "⚡ Disponible para trabajar",
-      aboutTitle: "Desarrollador Full Stack Junior.",
-      aboutDesc: "Con experiencia en TypeScript, React y PostgreSQL. Experiencia en la creación de aplicaciones web escalables. Enfocado en la optimización de procesos y la mejora de la gestión de datos. Busco una oportunidad como Desarrollador Junior o una pasantía.",
-  
-      // Why
-      whyTitle: "¿Por qué trabajar conmigo?",
-      why1Title: "Aprendizaje Rápido",
-      why1Desc: "Estudio y programo todos los días; estoy seguro de que puedo aprender y adaptarme a cualquier nueva tecnología.",
-      why2Title: "Desarrollo con IA",
-      why2Desc: "Apasionado por la inteligencia artificial, con enfoque en el aprendizaje continuo y la aplicación de las últimas tecnologías.",
-      why3Title: "Resolución de Problemas",
-      why3Desc: "Hoy no basta con saber programar; la clave está en detectar y resolver problemas con el desarrollo de software.",
-      why4Title: "Comunicación Clara",
-      why4Desc: "Más de 10 años trabajando en equipo, estoy seguro de que es la mejor manera de trabajar para alcanzar nuestros objetivos.",
-      why5Title: "Comprometido",
-      why5Desc: "Comprometido con el diseño y desarrollo de soluciones de software eficientes y escalables.",
-      why6Title: "Visión a Largo Plazo",
-      why6Desc: "En unos años me veo como desarrollador Full Stack liderando proyectos, aplicando las tecnologías más innovadoras y contribuyendo al desarrollo de la empresa.",
-  
-      // Projects
-      projectsTitle: "Proyectos",
-      project1Title: "Bitácora Digital",
-      project1Title: "Bitácora Digital",
-      project1Li1: "Desarrollé una aplicación web full-stack para digitalizar la gestión de permisos de empleados",
-      project1Li2: "Implementé autenticación JWT y control de acceso basado en roles (RBAC)",
-      project1Li3: "Construí APIs RESTful para gestión de solicitudes, flujos de aprobación y manejo de datos",
-      project1Li4: "Mejoré la eficiencia del flujo de trabajo reduciendo los procesos manuales",
-      project1Desc2: "Esta aplicación fue desarrollada para la empresa donde trabajo actualmente con el fin de minimizar el proceso manual y tener mejor control de la información del personal.",
-      project1Desc3: "Si desea ver el proyecto, puede visitar la dirección adjunta. Y si desea ver un video explicativo, puede acceder al DEMO.",
-      project2Title: "Juego de Consola Pokémon",
-      project2Desc: "Un juego de batalla por consola construido con fundamentos de JavaScript. Implementa funciones, arreglos, clases, bucles y exportación de módulos. Dos pokémons se enfrentan por turnos con selección interactiva.",
-      project2Desc2: "Proyecto desarrollado para aprobar el examen de conocimientos básicos en desarrollo de software en la academia DEVLIVE, aplicando buenas prácticas de programación.",
-  
-      // Experience
-      experienceTitle: "Experiencia",
-      exp1Role: "Asistente Administrativo",
-      exp1Meta: "Grupo Dipo · Ago 2022 — Presente",
-      exp1Li1: "Coordinación de procesos internos y organización de datos operativos entre departamentos.",
-      exp1Li2: "Preparación de reportes y documentación para apoyar la toma de decisiones y mejorar la eficiencia.",
-      exp1Li3: "Colaboración con equipos para optimizar flujos de trabajo.",
-      exp1Li4: "Desarrollé una aplicación web para digitalizar la gestión de permisos de empleados, reduciendo procesos manuales y mejorando el control de datos.",
-      exp2Role: "Asistente Administrativo",
-      exp2Meta: "Alteco S.A · Sep 2017 — Feb 2022",
-      exp2Li1: "Atención al cliente, cotizaciones y comunicación con clientes y proveedores.",
-      exp2Li2: "Seguimiento de proyectos y gestión de servicio postventa.",
-  
-      // Education
-      educationTitle: "Educación",
-      edu1Title: "Universidad Fidelitas",
-      edu1Meta: "2021 — Presente",
-      edu1Item1: "Ingeniería en Sistemas (en curso)",
-      edu1Item2: "Ingeniería Industrial (avanzado)",
-      edu2Title: "DEVLIVE ACADEMY (Desarrollo de Software)",
-      edu2Meta: "Enero 2025 — Diciembre 2025",
-      edu2Intro: "Curso de Desarrollo de Software Full Stack. Formación integral enfocada en el desarrollo general de sofware, cubriendo frontend, backend y testing.",
-      edu2Item1: "Metodología Ágil, Entorno de Desarrollo, Control de Versiones, Fundamentos.",
-      edu2Item2: "POO, Estructuras de Datos.",
-      edu2Item3: "Redes: APIs, Postman, Auth, Fetch, Async, Métodos HTTP.",
-      edu2Item4: "Testing: Frameworks, Automatización, Testing Manual, E2E, Unit Testing.",
-      edu2Item5: "Principios SOLID, Patrones de Diseño.",
-      edu2Item6: "Frontend: React, WebPack, Formularios, UI, Props, React Router.",
-      edu2Item7: "Backend: Postgres, Auth, Nest.js, ORM, DTO, Prisma.",
-      edu2Outro: "Proyecto Destacado: Desarrollo de una aplicación web funcional utilizando los conocimientos adquiridos durante el curso.",
-      edu3Title: "Curso de Desarrollo Web",
-      edu3Meta: "2024",
-      edu3Intro: "Curso personalizado en HTML, CSS y JavaScript básico, aprendiendo conceptos básicos y necesarios para la comprensión de los lenguajes.",
-      edu3Item1: "Fundamentos de HTML5, CSS, JavaScript.",
-      edu4Title: "Universidad Juan Pablo II",
-      edu4Meta: "Certificado de Inglés B1–B2",
-  
-      // Skills
-      skillsTitle: "Habilidades",
-      skillLang: "Lenguajes",
-      skillFrameworks: "Frameworks",
-      skillDB: "Bases de Datos",
-      skillTools: "Herramientas",
-  
-      // Footer
-      footer: "© 2025 Leonardo Monge · Costa Rica",
-    }
-  };
+  en: {
+    // Navbar
+    navAbout: "About",
+    navWhy: "Why me?",
+    navProjects: "Projects",
+    navExperience: "Experience",
+    navEducation: "Education",
+    navSkills: "Skills",
+    contactBtn: "Contact me ▾",
+
+    // About
+    availableTag: "⚡ Available for work",
+    aboutTitle: "Junior Full Stack Developer",
+    aboutDesc: "With experienced in TypeScript, React, and PostgreSQL. Skilled in building scalable web applications. Focused on optimizing processes and improving data management.",
+
+    // Why
+    whyTitle: "Why work with me?",
+    why1Title: "Fast Learner",
+    why1Desc: "I study and program every day; I am sure I can learn and adapt to any new technology.",
+    why2Title: "AI-Driven Development",
+    why2Desc: "Passionate about artificial intelligence, with a focus on continuous learning and the application of the latest technologies.",
+    why3Title: "Problem Solver",
+    why3Desc: "Today, knowing how to program is not enough; the key is detecting and solving problems with software development.",
+    why4Title: "Clear Communication",
+    why4Desc: "10+ years working as a team, I'm sure it's the best way to work to achieve our goals.",
+    why5Title: "Committed",
+    why5Desc: "Committed to the design and development of efficient and scalable software solutions.",
+    why6Title: "Long-Term Vision",
+    why6Desc: "In a few years I see myself as a Full Stack developer leading projects, applying the most innovative technologies and contributing to the development of the company.",
+
+    // Projects
+    projectsTitle: "Projects",
+
+    // Project: Digital Tickets
+    dtTitle: "Digital Tickets",
+    dtLi1: "Developed full-stack applications to digitize internal business processes.",
+    dtLi2: "Design of relational databases with PostgreSQL and Prisma ORM.",
+    dtLi3: "Development of REST APIs with NestJS, including JWT authentication and role-based access control (RBAC).",
+    dtLi4: "Implementation of automated testing with Jest (unit and integration tests).",
+    dtLi5: "Deployment to Microsoft Azure (App Service, Static Web Apps, PostgreSQL) with CI/CD using GitHub Actions.",
+    dtDesc2: "Developed a comprehensive application to automate and digitize the purchase review process, replacing manual workflows and improving operational efficiency. The solution was packaged in Docker containers and deployed on Microsoft Azure, providing a scalable, secure, and easily maintainable cloud environment.",
+
+    // Project: Digital logBook
+    lbTitle: "Digital logBook",
+    lbLi1: "Developed a full-stack web application to digitize employee leave management",
+    lbLi2: "Implemented JWT authentication and role-based access control (RBAC)",
+    lbLi3: "Built RESTful APIs for request management, approval workflows, and data handling",
+    lbLi4: "Improved workflow efficiency by reducing manual processes",
+    lbDesc2: "Development of applications to digitize and improve the manual process of managing and reviewing employee permissions.",
+
+    // Project: Pokemon Console Game
+    pkTitle: "Pokemon Console Game",
+    pkDesc: "A console-based battle game built with core JavaScript fundamentals. Implements functions, arrays, classes, loops, and module exports. Two pokémons battle turn-by-turn with interactive user selection.",
+    pkDesc2: "Project developed to pass the basic knowledge exam in software development at the DEVLIVE academy, applying good programming practices.",
+
+    // Experience
+    experienceTitle: "Experience",
+
+    fsdRole: "Full Stack Developer (Projects / Internal Systems)",
+    fsdMeta: "Grupo Dipo · 2025 — Present",
+    fsdLi1: "Development of full-stack web applications to digitize manual business processes and improve operational efficiency",
+    fsdLi2: "Design of relational databases with PostgreSQL and Prisma ORM. Development of REST APIs with NestJS, JWT authentication, and role-based access control (RBAC).",
+    fsdLi3: "Implementation of automated testing with Jest (unit and integration tests) and deployment of applications to Microsoft Azure using CI/CD pipelines with GitHub Actions and Docker.",
+    fsdLi4: "Clean code, security, scalability, and agile development practices throughout the entire software development lifecycle.",
+    fsdLi5: "Support and maintenance of existing applications, including bug fixes, feature enhancements, updates, and performance optimization.",
+
+    aaDipoRole: "Administrative Assistant",
+    aaDipoMeta: "Grupo Dipo · 2022 — 2025",
+    aaDipoLi1: "Coordination of operational processes and administrative workflows.",
+    aaDipoLi2: "Collaboration with other departments in data analysis and report preparation for decision-making.",
+
+    aaAltecoRole: "Administrative Assistant",
+    aaAltecoMeta: "Alteco S.A · Sep 2017 — Feb 2022",
+    aaAltecoLi1: "Managed client relations and administrative documentation, ensuring timely task completion with management.",
+
+    // Education
+    educationTitle: "Education",
+    edu1Title: "Fidelitas University",
+    edu1Meta: "2021 — Present",
+    edu1Item1: "Systems Engineering (in progress)",
+    edu1Item2: "Industrial Engineering Studies 2017-2021",
+
+    edu2Title: "DEVLIVE ACADEMY (Software Development)",
+    edu2Meta: "January 2025 — December 2025",
+    edu2Intro: "Full stack software development course, comprehensive training focused on agile methodologies and OOP. Centered on web application development, covering: frontend, backend, networking, testing, and cloud services.",
+
+    edu3Title: "Web Development Course",
+    edu3Meta: "2024",
+    edu3Intro: "Personalized course in HTML, CSS and basic Javascript, learning basic and necessary concepts for understanding the languages",
+
+    edu4Title: "Universidad Juan Pablo II",
+    edu4Meta: "English B1–B2 Certificate",
+
+    // Skills
+    skillsTitle: "Skills",
+    skillLang: "Languages",
+    skillFrameworks: "Frameworks",
+    skillDB: "Databases",
+    skillCloud: "Cloud & DevOps",
+    skillTools: "Tools",
+
+    // Footer
+    footer: "© 2026 Leonardo Monge · Costa Rica",
+  },
+
+  es: {
+    // Navbar
+    navAbout: "Sobre mí",
+    navWhy: "¿Por qué yo?",
+    navProjects: "Proyectos",
+    navExperience: "Experiencia",
+    navEducation: "Educación",
+    navSkills: "Habilidades",
+    contactBtn: "Contáctame ▾",
+
+    // About
+    availableTag: "⚡ Disponible para trabajar",
+    aboutTitle: "Desarrollador Full Stack Junior",
+    aboutDesc: "Con experiencia en TypeScript, React y PostgreSQL. Experiencia en la creación de aplicaciones web escalables. Enfocado en la optimización de procesos y la mejora de la gestión de datos.",
+
+    // Why
+    whyTitle: "¿Por qué trabajar conmigo?",
+    why1Title: "Aprendizaje Rápido",
+    why1Desc: "Estudio y programo todos los días; estoy seguro de que puedo aprender y adaptarme a cualquier nueva tecnología.",
+    why2Title: "Desarrollo con IA",
+    why2Desc: "Apasionado por la inteligencia artificial, con enfoque en el aprendizaje continuo y la aplicación de las últimas tecnologías.",
+    why3Title: "Resolución de Problemas",
+    why3Desc: "Hoy no basta con saber programar; la clave está en detectar y resolver problemas con el desarrollo de software.",
+    why4Title: "Comunicación Clara",
+    why4Desc: "Más de 10 años trabajando en equipo, estoy seguro de que es la mejor manera de trabajar para alcanzar nuestros objetivos.",
+    why5Title: "Comprometido",
+    why5Desc: "Comprometido con el diseño y desarrollo de soluciones de software eficientes y escalables.",
+    why6Title: "Visión a Largo Plazo",
+    why6Desc: "En unos años me veo como desarrollador Full Stack liderando proyectos, aplicando las tecnologías más innovadoras y contribuyendo al desarrollo de la empresa.",
+
+    // Projects
+    projectsTitle: "Proyectos",
+
+    // Project: Digital Tickets
+    dtTitle: "Tickets Digitales",
+    dtLi1: "Desarrollo de aplicacion full-stack para digitalizar procesos internos del negocio.",
+    dtLi2: "Diseño de bases de datos relacionales con PostgreSQL y Prisma ORM.",
+    dtLi3: "Desarrollo de APIs REST con NestJS, incluyendo autenticación JWT y control de acceso basado en roles (RBAC).",
+    dtLi4: "Implementación de pruebas automatizadas con Jest (pruebas unitarias y de integración).",
+    dtLi5: "Despliegue en Microsoft Azure (App Service, Static Web Apps, PostgreSQL) con CI/CD usando GitHub Actions.",
+    dtDesc2: "Desarrollo de una aplicación integral para automatizar y digitalizar el proceso de revisión de compras, reemplazando flujos de trabajo manuales y mejorando la eficiencia operativa. La solución fue empaquetada en contenedores Docker y desplegada en Microsoft Azure, brindando un entorno en la nube escalable, seguro y de fácil mantenimiento.",
+
+    // Project: Digital logBook
+    lbTitle: "Bitácora Digital",
+    lbLi1: "Desarrollo de aplicación web full-stack para digitalizar la gestión de permisos de empleados",
+    lbLi2: "Implementacion de autenticación JWT y control de acceso basado en roles (RBAC)",
+    lbLi3: "Desarrollo APIs RESTful para gestión de solicitudes, flujos de aprobación y manejo de datos",
+    lbLi4: "Mejora en la eficiencia del flujo de trabajo reduciendo los procesos manuales",
+    lbDesc2: "Desarrollo de aplicaciones para digitalizar y mejorar el proceso manual de gestión y revisión de permisos de los empleados.",
+
+    // Project: Pokemon Console Game
+    pkTitle: "Juego de Consola Pokémon",
+    pkDesc: "Un juego de batalla por consola construido con fundamentos de JavaScript. Implementa funciones, arreglos, clases, bucles y exportación de módulos. Dos pokémons se enfrentan por turnos con selección interactiva.",
+    pkDesc2: "Proyecto desarrollado para aprobar el examen de conocimientos básicos en desarrollo de software en la academia DEVLIVE, aplicando buenas prácticas de programación.",
+
+    // Experience
+    experienceTitle: "Experiencia",
+
+    fsdRole: "Desarrollador Full Stack (Proyectos / Sistemas Internos)",
+    fsdMeta: "Grupo Dipo · 2025 — Presente",
+    fsdLi1: "Desarrollo de aplicaciones web full-stack para digitalizar procesos manuales del negocio y mejorar la eficiencia operativa",
+    fsdLi2: "Diseño de bases de datos relacionales con PostgreSQL y Prisma ORM. Desarrollo de APIs REST con NestJS, autenticación JWT y control de acceso basado en roles (RBAC).",
+    fsdLi3: "Implementación de pruebas automatizadas con Jest (pruebas unitarias y de integración) y despliegue de aplicaciones en Microsoft Azure usando pipelines CI/CD con GitHub Actions y Docker.",
+    fsdLi4: "Código limpio, seguridad, escalabilidad y prácticas de desarrollo ágil a lo largo de todo el ciclo de vida del desarrollo de software.",
+    fsdLi5: "Soporte y mantenimiento de aplicaciones existentes, incluyendo corrección de errores, mejoras de funcionalidades, actualizaciones y optimización de rendimiento.",
+
+    aaDipoRole: "Asistente Administrativo",
+    aaDipoMeta: "Grupo Dipo · 2022 — 2025",
+    aaDipoLi1: "Coordinación de procesos operativos y flujos de trabajo administrativos.",
+    aaDipoLi2: "Colaboración con otros departamentos en el análisis de datos y la preparación de reportes para la toma de decisiones.",
+
+    aaAltecoRole: "Asistente Administrativo",
+    aaAltecoMeta: "Alteco S.A · Sep 2017 — Feb 2022",
+    aaAltecoLi1: "Gestión de relaciones con clientes y documentación administrativa, asegurando el cumplimiento oportuno de tareas con la gerencia.",
+
+    // Education
+    educationTitle: "Educación",
+    edu1Title: "Universidad Fidelitas",
+    edu1Meta: "2021 — Presente",
+    edu1Item1: "Ingeniería en Sistemas (en curso)",
+    edu1Item2: "Estudios de Ingeniería Industrial 2017-2021",
+
+    edu2Title: "DEVLIVE ACADEMY (Desarrollo de Software)",
+    edu2Meta: "Enero 2025 — Diciembre 2025",
+    edu2Intro: "Curso de desarrollo de software full stack, formación integral enfocada en metodologías ágiles y POO. Centrado en el desarrollo de aplicaciones web, abarcando: frontend, backend, redes, testing y servicios en la nube.",
+
+    edu3Title: "Curso de Desarrollo Web",
+    edu3Meta: "2024",
+    edu3Intro: "Curso personalizado en HTML, CSS y JavaScript básico, aprendiendo conceptos básicos y necesarios para la comprensión de los lenguajes.",
+
+    edu4Title: "Universidad Juan Pablo II",
+    edu4Meta: "Certificado de Inglés B1–B2",
+
+    // Skills
+    skillsTitle: "Habilidades",
+    skillLang: "Lenguajes",
+    skillFrameworks: "Frameworks",
+    skillDB: "Bases de Datos",
+    skillCloud: "Nube y DevOps",
+    skillTools: "Herramientas",
+
+    // Footer
+    footer: "© 2026 Leonardo Monge · Costa Rica",
+  },
+};

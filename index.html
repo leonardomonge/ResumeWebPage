@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,15 +29,15 @@
   <nav id="navbar">
     <div class="nav-container">
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#why">Why me?</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about" data-i18n="navAbout">About</a></li>
+        <li><a href="#why" data-i18n="navWhy">Why me?</a></li>
+        <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
+        <li><a href="#experience" data-i18n="navExperience">Experience</a></li>
+        <li><a href="#education" data-i18n="navEducation">Education</a></li>
+        <li><a href="#skills" data-i18n="navSkills">Skills</a></li>
         <li class="nav-contact-wrapper">
           <button class="lang-btn" onclick="toggleLang()" id="langBtn">ES</button>
-          <button class="nav-contact" onclick="toggleDropdown()">Contact me ▾</button>
+          <button class="nav-contact" onclick="toggleDropdown()" data-i18n="contactBtn">Contact me ▾</button>
           <div class="contact-dropdown" id="contactDropdown">
             <span class="dropdown-phone"><i class="fas fa-phone"></i> (+506) 7261-2066</span>
             <a href="mailto:leonardomonge19@gmail.com"><i class="fas fa-envelope"></i> leonardomonge19@gmail.com</a>
@@ -54,12 +54,12 @@
     
         <!-- Texto e links -->
         <div class="about-text">
-           <p class="available-tag">⚡ Available for work</p>
-          <h1>Junior Full Stack Developer</h1>
-          <p class="about-desc">
+           <p class="available-tag" data-i18n="availableTag">⚡ Available for work</p>
+          <h1 data-i18n="aboutTitle">Junior Full Stack Developer</h1>
+          <p class="about-desc" data-i18n="aboutDesc">
             With experienced in TypeScript, React, and PostgreSQL.
             Skilled in building scalable web applications. Focused on optimizing processes 
-            and improving data management. Seeking a Junior Developer or Internship opportunity.
+            and improving data management. 
           </p>
           <div class="about-links">
             <a href="https://github.com/leonardomonge" target="_blank"><i class="fab fa-github"></i> GitHub</a>
@@ -78,44 +78,44 @@
 
 
     <section id="why">
-      <h2>Why work with me?</h2>
+      <h2 data-i18n="whyTitle">Why work with me?</h2>
       <div class="why-grid">
     
         <div class="why-card">
           <i class="fas fa-brain"></i>
-          <h4>Fast Learner</h4>
-          <p>I study and program every day; I am sure I can learn and adapt to any new technology.</p>
+          <h4 data-i18n="why1Title">Fast Learner</h4>
+          <p data-i18n="why1Desc">I study and program every day; I am sure I can learn and adapt to any new technology.</p>
         </div>
 
         <div class="why-card">
           <i class="fas fa-robot"></i>
-          <h4>AI-Driven Development</h4>
-          <p>Passionate about artificial intelligence, with a focus on continuous learning and the application of the latest technologies.</p>
+          <h4 data-i18n="why2Title">AI-Driven Development</h4>
+          <p data-i18n="why2Desc">Passionate about artificial intelligence, with a focus on continuous learning and the application of the latest technologies.</p>
         </div>
 
         <div class="why-card">
           <i class="fas fa-puzzle-piece"></i>
-          <h4>Problem Solver</h4>
-          <p>Today, knowing how to program is not enough; the key is detecting and solving 
+          <h4 data-i18n="why3Title">Problem Solver</h4>
+          <p data-i18n="why3Desc">Today, knowing how to program is not enough; the key is detecting and solving 
             problems with software development.</p>
         </div>
     
         <div class="why-card">
           <i class="fas fa-comments"></i>
-          <h4>Clear Communication</h4>
-          <p>10+ years working as a team, I'm sure it's the best way to work to achieve our goals.</p>
+          <h4 data-i18n="why4Title">Clear Communication</h4>
+          <p data-i18n="why4Desc">10+ years working as a team, I'm sure it's the best way to work to achieve our goals.</p>
         </div>
     
         <div class="why-card">
           <i class="fas fa-handshake"></i>
-          <h4>Committed</h4>
-          <p>Committed to the design and development of efficient and scalable software solutions.</p>
+          <h4 data-i18n="why5Title">Committed</h4>
+          <p data-i18n="why5Desc">Committed to the design and development of efficient and scalable software solutions.</p>
         </div>
 
         <div class="why-card">
           <i class="fas fa-rocket"></i>
-          <h4>Long-Term Vision</h4>
-          <p>In a few years I see myself as a Full Stack developer leading projects, applying the most innovative technologies and contributing to the development of the company.</p>
+          <h4 data-i18n="why6Title">Long-Term Vision</h4>
+          <p data-i18n="why6Desc">In a few years I see myself as a Full Stack developer leading projects, applying the most innovative technologies and contributing to the development of the company.</p>
         </div>
     
       </div>
@@ -126,30 +126,57 @@
 
 
     <section id="projects">
-      <h2>Projects</h2>
+      <h2 data-i18n="projectsTitle">Projects</h2>
+      <div class="project-card">
+        <h3 data-i18n="dtTitle">Digital Tickets</h3>
+        <ul>
+          <li data-i18n="dtLi1">Developed full-stack applications to digitize internal business processes.</li>
+          <li data-i18n="dtLi2">Design of relational databases with PostgreSQL and Prisma ORM.</li>
+          <li data-i18n="dtLi3">Development of REST APIs with NestJS, including JWT authentication and role-based access control (RBAC). </li>
+          <li data-i18n="dtLi4">Implementation of automated testing with Jest (unit and integration tests). </li>
+          <li data-i18n="dtLi5">Deployment to Microsoft Azure (App Service, Static Web Apps, PostgreSQL) with CI/CD using GitHub Actions. </li>
+        </ul>
+        <div class="project-screenshots">
+          <img src="img/Tikect1.PNG" alt="screenshot 1">
+        </div>
+        <p class="project1-desc2" data-i18n="dtDesc2">
+          Developed a comprehensive application to automate and digitize the purchase review 
+          process, replacing manual workflows and improving operational efficiency. 
+          The solution was packaged in Docker containers and deployed on Microsoft Azure, 
+          providing a scalable, secure, and easily maintainable cloud environment.
+        </p>   
+        <div class="project-links">
+          <a href="https://github.com/leonardomonge/Digital-Tickets" target="_blank"><i class="fab fa-github"></i> Code</a>
+        </div>
+        <div class="project-tags">
+          <span>React</span>
+          <span>Typescript</span>
+          <span>PostgreSQL</span>
+          <span>Nest.js</span>
+          <span>Microsoft Azure</span>
+          <span>Docker</span>
+          <span>GitHub Actions</span>
+          <span>Jest</span>
+        </div>
+      </div>
 
       <div class="project-card">
-        <h3>Digital logBook</h3>
+        <h3 data-i18n="lbTitle">Digital logBook</h3>
         <ul>
-          <li>Developed a full-stack web application to digitize employee leave management </li>
-          <li>Implemented JWT authentication and role-based access control (RBAC) </li>
-          <li>Built RESTful APIs for request management, approval workflows, and data handling </li>
-          <li>Improved workflow efficiency by reducing manual processes </li>
+          <li data-i18n="lbLi1">Developed a full-stack web application to digitize employee leave management </li>
+          <li data-i18n="lbLi2">Implemented JWT authentication and role-based access control (RBAC) </li>
+          <li data-i18n="lbLi3">Built RESTful APIs for request management, approval workflows, and data handling </li>
+          <li data-i18n="lbLi4">Improved workflow efficiency by reducing manual processes </li>
         </ul>
         <div class="project-screenshots">
           <img src="img/bitacora1.PNG" alt="screenshot 1">
         </div>
-        <p class="project1-desc2">
-          I developed this application for the company where I work in order to replace 
-          manual processes and improve data control. 
-        </p>  
-        <p class="project1-desc3" >
-          If you'd like to see the project, you can visit the attached address. 
-          And if you'd like to see an explanatory video, you can access the DEMO..
-        </p>  
+        <p class="project1-desc2" data-i18n="lbDesc2">
+          Development of applications to digitize and improve the manual process of managing 
+          and reviewing employee permissions.
+        </p>    
         <div class="project-links">
           <a href="https://github.com/leonardomonge/Bitacora-Digital" target="_blank"><i class="fab fa-github"></i> Code</a>
-          <a href="https://intelligent-nourishment-production.up.railway.app" target="_blank"><i class="fas fa-external-link-alt"></i> Link</a>
           <a href="https://youtu.be/H_K6rtrplGU" target="_blank"><i class="fab fa-youtube"></i> Demo</a>
         </div>
         <div class="project-tags">
@@ -159,6 +186,7 @@
           <span>Typescript</span>
           <span>Postman</span>
           <span>Vite</span>
+          <span>Cloudinary</span>
           <span>Tailwind</span>
           <span>Railway</span>
         </div>
@@ -169,15 +197,15 @@
 
 
       <div class="project-card">
-        <h3>Pokemon Console Game</h3>
-        <p>
+        <h3 data-i18n="pkTitle">Pokemon Console Game</h3>
+        <p data-i18n="pkDesc">
           A console-based battle game built with core JavaScript fundamentals.
           Implements functions, arrays, classes, loops, and module exports.
           Two pokémons battle turn-by-turn with interactive user selection.
         </p>
         <div class="project-screenshots">
           <img src="img/imgone.PNG" alt="Pokemon game screenshot 1">
-          <p>
+          <p data-i18n="pkDesc2">
             Project developed to pass the basic knowledge exam in software development at
             the DEVLIVE academy, applying good programming practices.
           </p>
@@ -195,80 +223,83 @@
     </section>
 
     <section id="experience">
-      <h2>Experience</h2>
+      <h2 data-i18n="experienceTitle">Experience</h2>
+      <div class="exp-item">
+        <h3 data-i18n="fsdRole">Full Stack Developer Junior (Projects / Internal Systems)</h3>
+        <p class="exp-meta" data-i18n="fsdMeta">Grupo Dipo · 2025 — Present</p>
+        <ul>
+          <li data-i18n="fsdLi1">Development of full-stack web applications to digitize manual business processes
+             and improve operational efficiency</li>
+          <li data-i18n="fsdLi2">Design of relational databases with PostgreSQL and Prisma ORM. Development of REST APIs 
+            with NestJS, JWT authentication, and role-based access control (RBAC).</li>
+          <li data-i18n="fsdLi3">Implementation of automated testing with Jest (unit and integration tests) 
+            and deployment of applications to Microsoft Azure using CI/CD pipelines with GitHub Actions and Docker.</li>
+          <li data-i18n="fsdLi4">Clean code, security, scalability, and agile development practices throughout 
+            the entire software development lifecycle.</li>
+          <li data-i18n="fsdLi5">Support and maintenance of existing applications, including bug fixes, feature 
+            enhancements, updates, and performance optimization.</li>
+        </ul> 
+      </div>
+
 
       <div class="exp-item">
-        <h3>Administrative Assistant</h3>
-        <p class="exp-meta">Grupo Dipo · Aug 2022 — Present</p>
+        <h3 data-i18n="aaDipoRole">Administrative Assistant</h3>
+        <p class="exp-meta" data-i18n="aaDipoMeta">Grupo Dipo · 2022 — 2025</p>
         <ul>
-          <li>Coordination of internal processes and organization of operational data across departments.</li>
-          <li>Preparation of reports and documentation to support decision-making and improve efficiency</li>
-          <li>Collaboration with teams to optimize workflows.</li>
-          <li>Developed a comprehensive web application to digitize employee permission management, reducing manual processes and improving data control.</li>
+          <li data-i18n="aaDipoLi1">Coordination of operational processes and administrative workflows.</li>
+          <li data-i18n="aaDipoLi2">Collaboration with other departments in data analysis and report preparation for decision-making.</li>
         </ul> 
       </div>
 
       <div class="exp-item">
-        <h3>Administrative Assistant</h3>
-        <p class="exp-meta">Alteco S.A · Sep 2017 — Feb 2022</p>
+        <h3 data-i18n="aaAltecoRole">Administrative Assistant</h3>
+        <p class="exp-meta" data-i18n="aaAltecoMeta">Alteco S.A · Sep 2017 — Feb 2022</p>
         <ul>
-          <li>Customer service, quoting, and communication with clients and suppliers.</li>
-          <li>Monitoring project progress and managing after-sales service.</li>
+          <li data-i18n="aaAltecoLi1">Managed client relations and administrative documentation, ensuring timely 
+            task completion with management. </li>
         </ul>
       </div>
 
     </section>
 
     <section id="education">
-      <h2>Education</h2>
+      <h2 data-i18n="educationTitle">Education</h2>
 
       <div class="edu-item">
-        <h3>Fidelitas University</h3>
-        <p class="edu-meta">2021 — Present</p>
+        <h3 data-i18n="edu1Title">Fidelitas University</h3>
+        <p class="edu-meta" data-i18n="edu1Meta">2021 — Present</p>
         <ul>
-          <li>Systems Engineering (in progress)</li>
-          <li>Industrial Engineering (advanced)</li>
+          <li data-i18n="edu1Item1">Systems Engineering (in progress)</li>
+          <li data-i18n="edu1Item2">Industrial Engineering Studies 2017-2021</li>
         </ul>
       </div>
 
       <div class="edu-item">
-        <h3>DEVLIVE ACADEMY (Software Development)</h3>
-        <p class="edu-meta"> January 2025 — December 2025</p>
-        <p class="edu-intro">Full Stack Software Development Course, Comprehensive training focused on web application development, covering frontend, backend, and testing.</p>
-        <ul>
-          <li>Agile Methodology,Dev Evironment,Version Control System, Fundamentals.</li>
-          <li>OOP,Data Structures.</li>
-          <li>Networking: APIS,Postman,Auth,Async,HTTP Methods,CORS.</li>
-          <li>Testing: Frameworks,Automation,ManualTesting,E2E,UnitTesting.</li>
-          <li>Solid Principles,Design Patterns</li>
-          <li>Frontend: React,WebPack,UI,Props,ReactRouter.</li>
-          <li>Backend: Postgres,Auth,NestJS,ORM,DTO,Prisma. </li>
-        </ul>
-        <p class="edu-outro">Featured Project: Developing a functional web application using the knowledge acquired during the course.</p>
+        <h3 data-i18n="edu2Title">DEVLIVE ACADEMY (Software Development)</h3>
+        <p class="edu-meta" data-i18n="edu2Meta"> January 2025 — December 2025</p>
+        <p class="edu-intro" data-i18n="edu2Intro">Full stack software development course, comprehensive training focused 
+          on agile methodologies and OOP. Centered on web application development, covering: frontend, backend, networking, testing, and cloud services.</p>
       </div>
 
       <div class="edu-item">
-        <h3>Web Development Course</h3>
-        <p class="edu-meta">2024</p>
-        <p class="edu-intro">Personalized course in HTML, CSS and basic Javascript, learning basic and 
+        <h3 data-i18n="edu3Title">Web Development Course</h3>
+        <p class="edu-meta" data-i18n="edu3Meta">2024</p>
+        <p class="edu-intro" data-i18n="edu3Intro">Personalized course in HTML, CSS and basic Javascript, learning basic and 
           necessary concepts for understanding the languages</p>
-        <ul>
-          <li>HTML5, CSS, JavaScript fundamentals</li>
-        </ul>
       </div>
 
       <div class="edu-item">
-        <h3>Universidad Juan Pablo II</h3>
-        <p class="edu-meta">English B1–B2 Certificate</p>
+        <h3 data-i18n="edu4Title">Universidad Juan Pablo II</h3>
+        <p class="edu-meta" data-i18n="edu4Meta">English B1–B2 Certificate</p>
       </div>
 
     </section>
 
     <section id="skills">
-      <h2>Skills</h2>
+      <h2 data-i18n="skillsTitle">Skills</h2>
       <div class="skills-grid">
         <div class="skill-group">
-          <h4>Languages</h4>
+          <h4 data-i18n="skillLang">Languages</h4>
           <ul>
             <li>-JavaScript</li>
             <li>-Java</li>
@@ -277,28 +308,38 @@
           </ul>
         </div>
         <div class="skill-group">
-          <h4>Frameworks</h4>
+          <h4 data-i18n="skillFrameworks">Frameworks</h4>
           <ul>
             <li>-React</li>
             <li>-Node.js</li>
             <li>-Nest.js</li>
             <li>-Tailwind CSS</li>
+            <li>-PrismaORM</li>
+            <li>-Jest,SuperTest</li>
           </ul>
         </div>
         <div class="skill-group">
-          <h4>Databases</h4>
+          <h4 data-i18n="skillDB">Databases</h4>
           <ul>
             <li>-PostgreSQL</li>
           </ul>
         </div>
         <div class="skill-group">
-          <h4>Tools</h4>
+          <h4 data-i18n="skillCloud">Cloud & DevOps</h4>
+          <ul>
+            <li>-Microsoft Azure</li>
+            <li>-Docker</li>
+            <li>-GitHub Actions</li>
+            <li>-Railway</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4 data-i18n="skillTools">Tools</h4>
           <ul>
             <li>-Git & GitHub</li>
             <li>-Postman</li>
             <li>-VSCode</li>
-            <li>-Prisma (ORM, database modeling)</li>
-            <li>-VSCode</li>
+            <li>-Azure CLI</li>
             <li>-Vite</li>
             <li>-Prompt engineering for development (Claude ai)</li>
           </ul>
@@ -309,7 +350,7 @@
   </main>
 
   <footer>
-    <p>© 2026 Leonardo Monge · Costa Rica</p>
+    <p data-i18n="footer">© 2026 Leonardo Monge · Costa Rica</p>
   </footer>
 
   <script src="translations.js"></script>
