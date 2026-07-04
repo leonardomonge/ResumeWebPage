@@ -10,7 +10,7 @@ const translations = {
     contactBtn: "Contact me ▾",
 
     // About
-    availableTag: "⚡ Available for work",
+   
     aboutTitle: "Junior Full Stack Developer",
     aboutDesc: "With experienced in TypeScript, React, and PostgreSQL. Skilled in building scalable web applications. Focused on optimizing processes and improving data management.",
 
@@ -30,7 +30,8 @@ const translations = {
     why6Desc: "In a few years I see myself as a Full Stack developer leading projects, applying the most innovative technologies and contributing to the development of the company.",
 
     // Projects
-    projectsTitle: "Projects",
+    projectsTitle: "Work Projects",
+    projectsPersonalTitle: "Personal Projects", 
 
     // Project: Digital Tickets
     dtTitle: "Digital Tickets",
@@ -48,6 +49,11 @@ const translations = {
     lbLi3: "Built RESTful APIs for request management, approval workflows, and data handling",
     lbLi4: "Improved workflow efficiency by reducing manual processes",
     lbDesc2: "Development of applications to digitize and improve the manual process of managing and reviewing employee permissions.",
+
+    // Project: Personal WebSite
+    WebSiteTitle: "Personal WebSite",
+    WSLi1: "Created to showcase my personal and professional information.",
+    WSDesc: "This personal portfolio contains my personal and professional information, as well as personal and work-related projects both past and ongoing intended to showcase my experience and skills.",
 
     // Project: Pokemon Console Game
     pkTitle: "Pokemon Console Game",
@@ -115,7 +121,7 @@ const translations = {
     contactBtn: "Contáctame ▾",
 
     // About
-    availableTag: "⚡ Disponible para trabajar",
+    
     aboutTitle: "Desarrollador Full Stack Junior",
     aboutDesc: "Con experiencia en TypeScript, React y PostgreSQL. Experiencia en la creación de aplicaciones web escalables. Enfocado en la optimización de procesos y la mejora de la gestión de datos.",
 
@@ -135,7 +141,8 @@ const translations = {
     why6Desc: "En unos años me veo como desarrollador Full Stack liderando proyectos, aplicando las tecnologías más innovadoras y contribuyendo al desarrollo de la empresa.",
 
     // Projects
-    projectsTitle: "Proyectos",
+    projectsTitle: "Proyectos Laborales",
+    projectsPersonalTitle: "Proyectos Personales", 
 
     // Project: Digital Tickets
     dtTitle: "Tickets Digitales",
@@ -152,7 +159,12 @@ const translations = {
     lbLi2: "Implementacion de autenticación JWT y control de acceso basado en roles (RBAC)",
     lbLi3: "Desarrollo APIs RESTful para gestión de solicitudes, flujos de aprobación y manejo de datos",
     lbLi4: "Mejora en la eficiencia del flujo de trabajo reduciendo los procesos manuales",
-    lbDesc2: "Desarrollo de aplicaciones para digitalizar y mejorar el proceso manual de gestión y revisión de permisos de los empleados.",
+    lbDesc2: "Desarrollo de aplicacione para digitalizar y mejorar el proceso manual de gestión y revisión de permisos de los empleados.",
+
+    // Project: Personal WebSite
+    WebSiteTitle: "Pagina Personal",
+    WSLi1: "Creada para mostrar mi informacion personal y profesional.",
+    WSDesc: "Este portafolio contiene mi informacion personal y profesional con la intencion de mostrar mis proyectos personales y laborales en los que he estado involucrado. Mostrando mi experiencia y habilidades.",
 
     // Project: Pokemon Console Game
     pkTitle: "Juego de Consola Pokémon",
