@@ -220,7 +220,7 @@ const translations = {
 
     // Project: Pokemon Console Game
     pkTitle:
-      "Vantek Systems (Business Software Solutions Platform | 2026 – Present):",
+      "Vantek Systems (Plataforma Web de soluciones de negocios | 2026 – Presente):",
     pkDesc:
       "Contribuyendo al desarrollo y mantenimiento de aplicaciones web empresariales implementando nuevos módulos, mejoras de funcionalidades, corrección de errores y optimización de código.",
 
