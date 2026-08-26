@@ -63,6 +63,8 @@ const translations = {
     lbLi3:
       "Built RESTful APIs for request management, approval workflows, and data handling",
     lbLi4: "Improved workflow efficiency by reducing manual processes",
+    lbLi5:
+      "Implementation of automated testing using Jest and Selenium, including unit, integration, and end-to-end testing, to validate application functionality and improve software reliability.",
     lbDesc2:
       "Development of applications to digitize and improve the manual process of managing and reviewing employee permissions.",
 
@@ -209,6 +211,8 @@ const translations = {
       "Desarrollo APIs RESTful para gestión de solicitudes, flujos de aprobación y manejo de datos",
     lbLi4:
       "Mejora en la eficiencia del flujo de trabajo reduciendo los procesos manuales",
+    lbLi5:
+      "Implementación de pruebas automatizadas mediante Jest y Selenium, incluyendo pruebas unitarias, para validar la funcionalidad de la aplicación y mejorar la fiabilidad del software.",
     lbDesc2:
       "Desarrollo de aplicacione para digitalizar y mejorar el proceso manual de gestión y revisión de permisos de los empleados.",
 
