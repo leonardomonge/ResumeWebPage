@@ -1,5 +1,7 @@
 /* Elimina los márgenes y paddings por defecto del browser */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -23,19 +25,17 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: var(--bg);
   color: var(--text-primary);
   line-height: 1.6;
 }
 
-
-
 /* Navbar */
 #navbar {
   position: sticky;
   top: 0;
-  background-color: #0A2540;
+  background-color: #0a2540;
   border-bottom: 1px solid var(--border);
   z-index: 100;
 }
@@ -66,15 +66,14 @@ body {
 .nav-links a {
   text-decoration: none;
   font-size: 0.9rem;
-  color: #FFFFFF ;
+  color: #ffffff;
   font-weight: 500;
   transition: color 0.2s;
 }
 
 .nav-links a:hover {
-  color: #1E3A8A;
+  color: #1e3a8a;
 }
-
 
 /* Boton del contact me */
 .nav-contact-wrapper {
@@ -88,7 +87,7 @@ body {
   padding: 0.4rem 1rem;
   border-radius: 6px;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
   cursor: pointer;
@@ -107,7 +106,7 @@ body {
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: 10px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   min-width: 240px;
   overflow: hidden;
   z-index: 200;
@@ -142,7 +141,6 @@ body {
   cursor: default;
 }
 
-
 /* boton de idioma  */
 .lang-btn {
   background: transparent;
@@ -150,7 +148,7 @@ body {
   color: var(--text-secondary);
   padding: 0.3rem 0.75rem;
   border-radius: 6px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.85rem;
   font-weight: 500;
   cursor: pointer;
@@ -161,8 +159,6 @@ body {
   border-color: var(--blue-primary);
   color: var(--blue-primary);
 }
-
-
 
 /* Layout Principal  */
 main {
@@ -197,17 +193,19 @@ h2 {
   font-weight: 700;
   letter-spacing: -0.02em;
   margin-bottom: 2rem;
-  color: #0A2540;
+  color: #0a2540;
   display: inline-block;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid transparent;
-  transition: border-color 0.3s, color 0.3s;
+  transition:
+    border-color 0.3s,
+    color 0.3s;
   cursor: default;
 }
 
 h2:hover {
   border-bottom: 2px solid var(--blue-primary);
-  color: #0A2540;
+  color: #0a2540;
 }
 
 h3 {
@@ -224,7 +222,6 @@ h3 {
   border: 1px solid var(--border);
   margin-top: 3rem;
 }
-
 
 #about p {
   font-size: 1.05rem;
@@ -277,6 +274,9 @@ h3 {
 .about-text {
   flex: 1;
 }
+.about-photo {
+  flex-shrink: 0;
+}
 .about-photo img {
   width: 220px;
   height: 280px;
@@ -297,7 +297,9 @@ h3 {
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 1.5rem;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 .why-card:hover {
@@ -325,7 +327,6 @@ h3 {
   line-height: 1.6;
 }
 
-
 /* projects */
 .project-card {
   background: #f1f5f9;
@@ -333,14 +334,14 @@ h3 {
   border-radius: 12px;
   padding: 1.75rem;
   margin-bottom: 1.5rem;
-  transition: transform 0.2s, box-shadow 0.2s;
-
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 .project-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
-
 
 .project-card h3 {
   font-size: 1.2rem;
@@ -349,7 +350,7 @@ h3 {
 }
 
 .project-card p {
-  color:#1e293b;
+  color: #1e293b;
   font-size: 0.95rem;
   margin-bottom: 1.25rem;
 }
@@ -412,7 +413,7 @@ h3 {
 
 .project-card ul {
   padding-left: 1.25rem;
-  color:#1e293b;
+  color: #1e293b;
   font-size: 0.95rem;
   margin-bottom: 1.25rem;
 }
@@ -438,7 +439,7 @@ h3 {
 
 .exp-meta,
 .edu-meta {
-  font-family: 'DM Mono', monospace;
+  font-family: "DM Mono", monospace;
   font-size: 0.8rem;
   color: var(--blue-primary);
   margin-bottom: 0.5rem;
@@ -491,7 +492,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--blue-primary);
-  font-family: 'DM Mono', monospace;
+  font-family: "DM Mono", monospace;
   margin-bottom: 0.75rem;
 }
 
@@ -514,7 +515,6 @@ footer {
   border-top: 1px solid var(--border);
 }
 @media (max-width: 768px) {
-
   /* Navbar */
   .nav-links {
     display: none;
@@ -581,6 +581,4 @@ footer {
   .project-tags {
     flex-wrap: wrap;
   }
-
 }
-

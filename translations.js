@@ -11,9 +11,9 @@ const translations = {
 
     // About
 
-    aboutTitle: "Full Stack Developer",
+    aboutTitle: "Software Developer/Coordinator",
     aboutDesc:
-      "With experienced in TypeScript, React, and PostgreSQL. Skilled in building scalable web applications. Focused on optimizing processes and improving data management.",
+      "Software Developer with experience developing applications for internal business process automation. Focused in requirements analysis, systems design, troubleshooting, and creating scalable and maintainable code. Applying clean and secure code practices in agile environments throughout the software development lifecycle.",
 
     // Why
     whyTitle: "Why work with me?",
@@ -25,7 +25,7 @@ const translations = {
       "Passionate about artificial intelligence, with a focus on continuous learning and the application of the latest technologies.",
     why3Title: "Problem Solver",
     why3Desc:
-      "Today, knowing how to program is not enough; the key is detecting and solving problems with software development.",
+      "Focused on problem-solving and process automation through software development.",
     why4Title: "Clear Communication",
     why4Desc:
       "10+ years working as a team, I'm sure it's the best way to work to achieve our goals.",
@@ -34,7 +34,7 @@ const translations = {
       "Committed to the design and development of efficient and scalable software solutions.",
     why6Title: "Long-Term Vision",
     why6Desc:
-      "In a few years, I see myself as a software architect leading projects, applying the most innovative technologies, and contributing to the company's development.",
+      "In a few years, I see myself as a professional leading projects, applying the most innovative technologies, and contributing to the company's development.",
 
     // Projects
     projectsTitle: "Work Projects",
@@ -66,53 +66,31 @@ const translations = {
     lbLi5:
       "Implementation of automated testing using Jest and Selenium, including unit, integration, and end-to-end testing, to validate application functionality and improve software reliability.",
     lbDesc2:
-      "Development of applications to digitize and improve the manual process of managing and reviewing employee permissions.",
+      "Automated the existing manual process and developed a digital workflow for employee requests, approvals, and review, improving information organization and process visibility",
 
-    // Project: Personal WebSite
-    WebSiteTitle: "Personal WebSite",
-    WSLi1: "Created to showcase my personal and professional information.",
-    WSDesc:
-      "This personal portfolio contains my personal and professional information, as well as personal and work-related projects both past and ongoing intended to showcase my experience and skills.",
-
-    // Project: Pokemon Console Game
-    pkTitle:
-      "Vantek Systems (Business Software Solutions Platform | 2026 – Present",
+    // Project: Vamtek Systems
+    pkTitle: "Vantek Systems — Freelance Collaborator (2026 – Present)",
     pkDesc:
       "Contributed to the development and maintenance of business web applications by implementing new modules, feature enhancements, bug fixes, and code optimizations.",
 
     // Experience
     experienceTitle: "Experience",
 
-    fsdRole: "Full Stack Developer ",
-    fsdMeta: "Grupo Dipo · 2025 — Present",
+    fsdRole: "Production / Administrative Coordinator ",
+    fsdMeta: "Grupo Dipo · 2022 — Present",
     fsdLi1:
-      "Design and development of backend and frontend modules using NestJS, Node.js, React, and Vite, participating throughout the software development lifecycle.",
+      "Identification of inefficiencies in administrative processes and design of digital solutions to improve internal workflows.",
     fsdLi2:
-      "Contributing to the design relational databases with PostgreSQL and Prisma ORM, developing RESTful APIs and integrating backend services with frontend applications.",
+      "Preparation production reports and operational metrics, including data tracking, analysis, and information updates across departments.",
     fsdLi3:
-      "Collaborating on the CI/CD pipeline implementation using GitHub Actions and deployed applications to cloud platforms including Microsoft Azure and Railway.",
-    fsdLi4:
-      "Implementing authentication and authorization using JWT and Role-Based Access Control (RBAC) to ensure secure access to applications.",
-    fsdLi5:
-      "Developing and maintaining unit and integration tests using Jest to improve application quality and reliability.",
-    fsdLi6:
-      "Building scalable and maintainable applications by applying clean code principles, modular architecture, and best software development practices.",
-    fsdLi7:
-      "Assisting in the support and maintenance for existing applications, including bug fixes, feature enhancements, updates, and performance optimization.",
-    fsdLi8:
-      "Collaborating with IT support activities, including software and hardware troubleshooting.",
+      "Communication with management and departments regarding process standardization, costs, invoices, and quality metrics.",
 
-    aaDipoRole: "Administrative Assistant",
-    aaDipoMeta: "Grupo Dipo · 2022 — 2025",
-    aaDipoLi1:
-      "Coordination of operational processes and administrative workflows.",
-    aaDipoLi2:
-      "Collaboration with other departments in data analysis and report preparation for decision-making.",
-
-    aaAltecoRole: "Administrative Assistant",
-    aaAltecoMeta: "Alteco S.A · Sep 2017 — Feb 2022",
+    aaAltecoRole: "Project Supervisor / Administrative",
+    aaAltecoMeta: "Alteco S.A · 2017 — 2022",
     aaAltecoLi1:
-      "Managed client relations and administrative documentation, ensuring timely task completion with management.",
+      "Logistics management for project execution: Production and personnel supervision, quality control, communication with suppliers and clients, management reporting, and schedule creation.",
+    aaAltecoLi2:
+      "Administrative support: Route coordination, preparation of price quotes, tracking of purchase orders and invoices, interdepartmental support, and after-sales customer service.",
 
     // Education
     educationTitle: "Education",
@@ -146,6 +124,7 @@ const translations = {
     footer: "© 2026 Leonardo Monge · Costa Rica",
   },
 
+  // Spanish translations
   es: {
     // Navbar
     navAbout: "Sobre mí",
@@ -158,9 +137,9 @@ const translations = {
 
     // About
 
-    aboutTitle: "Desarrollador Full Stack",
+    aboutTitle: "Desarrollador Full Stack/Coordinador",
     aboutDesc:
-      "Con experiencia en TypeScript, React y PostgreSQL. Experiencia en la creación de aplicaciones web escalables. Enfocado en la optimización de procesos y la mejora de la gestión de datos.",
+      "Desarrollador de Software con experiencia en el desarrollo de aplicaciones para la automatización de procesos empresariales internos. Enfocado en el análisis de requisitos, el diseño de sistemas, la resolución de problemas y la creación de código escalable y fácil de mantener. Aplicando prácticas de código limpio y seguro en entornos ágiles a lo largo de todo el ciclo de vida del desarrollo de software.",
 
     // Why
     whyTitle: "¿Por qué trabajar conmigo?",
@@ -172,7 +151,7 @@ const translations = {
       "Apasionado por la inteligencia artificial, con enfoque en el aprendizaje continuo y la aplicación de las últimas tecnologías.",
     why3Title: "Resolución de Problemas",
     why3Desc:
-      "Hoy no basta con saber programar; la clave está en detectar y resolver problemas con el desarrollo de software.",
+      "Enfocado en la resolución de problemas y la automatización de procesos mediante el desarrollo de software.",
     why4Title: "Comunicación Clara",
     why4Desc:
       "Más de 10 años trabajando en equipo, estoy seguro de que es la mejor manera de trabajar para alcanzar nuestros objetivos.",
@@ -181,14 +160,14 @@ const translations = {
       "Comprometido con el diseño y desarrollo de soluciones de software eficientes y escalables.",
     why6Title: "Visión a Largo Plazo",
     why6Desc:
-      "En unos años me veo como arquitecto de software liderando proyectos, aplicando las tecnologías más innovadoras y contribuyendo al desarrollo de la empresa.",
+      "En unos años me veo como profesional liderando proyectos, aplicando las tecnologías más innovadoras y contribuyendo al desarrollo de la empresa.",
 
     // Projects
     projectsTitle: "Proyectos Laborales",
     projectsPersonalTitle: "Proyectos Personales",
 
     // Project: Digital Tickets
-    dtTitle: "Tickets Digitales",
+    dtTitle: "Compras Digitales",
     dtLi1:
       "Desarrollo de aplicacion full-stack para digitalizar procesos internos del negocio.",
     dtLi2: "Diseño de bases de datos relacionales con PostgreSQL y Prisma ORM.",
@@ -199,7 +178,7 @@ const translations = {
     dtLi5:
       "Despliegue en Microsoft Azure (App Service, Static Web Apps, PostgreSQL) con CI/CD usando GitHub Actions.",
     dtDesc2:
-      "Desarrollo de una aplicación integral para automatizar y digitalizar el proceso de revisión de compras, reemplazando flujos de trabajo manuales y mejorando la eficiencia operativa. La solución fue empaquetada en contenedores Docker y desplegada en Microsoft Azure, brindando un entorno en la nube escalable, seguro y de fácil mantenimiento.",
+      "Desarrollo de una aplicación integral para digitalizar el proceso de revisión de compras internas de los productos de la compañía, reemplazando flujos de trabajo manuales y mejorando la eficiencia operativa. La solución fue empaquetada en contenedores Docker y desplegada en Microsoft Azure, brindando un entorno en la nube escalable, seguro y de fácil mantenimiento.",
 
     // Project: Digital logBook
     lbTitle: "Bitácora Digital",
@@ -209,12 +188,10 @@ const translations = {
       "Implementacion de autenticación JWT y control de acceso basado en roles (RBAC)",
     lbLi3:
       "Desarrollo APIs RESTful para gestión de solicitudes, flujos de aprobación y manejo de datos",
-    lbLi4:
-      "Mejora en la eficiencia del flujo de trabajo reduciendo los procesos manuales",
     lbLi5:
       "Implementación de pruebas automatizadas mediante Jest y Selenium, incluyendo pruebas unitarias, para validar la funcionalidad de la aplicación y mejorar la fiabilidad del software.",
     lbDesc2:
-      "Desarrollo de aplicacione para digitalizar y mejorar el proceso manual de gestión y revisión de permisos de los empleados.",
+      "Se automatizó el proceso manual existente y se desarrolló un flujo de trabajo digital para las solicitudes, aprobaciones y revisiones de los empleados, mejorando así la organización de la información y la visibilidad del proceso.",
 
     // Project: Personal WebSite
     WebSiteTitle: "Pagina Personal",
@@ -222,45 +199,29 @@ const translations = {
     WSDesc:
       "Este portafolio contiene mi informacion personal y profesional con la intencion de mostrar mis proyectos personales y laborales en los que he estado involucrado. Mostrando mi experiencia y habilidades.",
 
-    // Project: Pokemon Console Game
-    pkTitle:
-      "Vantek Systems (Plataforma Web de soluciones de negocios | 2026 – Presente):",
+    // Project: Vantek Systems
+    pkTitle: "Vantek Systems (Colaborador Freelance | 2026 – Presente):",
     pkDesc:
       "Contribuyendo al desarrollo y mantenimiento de aplicaciones web empresariales implementando nuevos módulos, mejoras de funcionalidades, corrección de errores y optimización de código.",
 
     // Experience
     experienceTitle: "Experiencia",
 
-    fsdRole: "Desarrollador Full Stack (Proyectos y Sistemas Internos)",
+    fsdRole: "Coordinador de produccion / Administrativo",
     fsdMeta: "Grupo Dipo · 2025 — Presente",
     fsdLi1:
-      "Diseño y desarrollo de módulos de backend y frontend utilizando NestJS, Node.js, React y Vite, participando en todo el ciclo de vida del desarrollo de software.",
+      "Identificación de ineficiencias en los procesos administrativos y diseño de soluciones digitales para mejorar los flujos de trabajo internos.",
     fsdLi2:
-      "Contribuyendo al diseño de bases de datos relacionales con PostgreSQL y Prisma ORM, desarrollando API RESTful e integrando servicios de backend con aplicaciones de frontend.",
+      "Elaboración de informes de producción y métricas operativas, incluyendo el seguimiento de datos, el análisis y la actualización de información entre departamentos.",
     fsdLi3:
-      "Colaboracion con la implementación de pipelines de CI/CD utilizando GitHub Actions y desplegué aplicaciones en plataformas en la nube como Microsoft Azure y Railway.",
-    fsdLi4:
-      "Implementacion autenticación y autorización mediante JWT y control de acceso basado en roles (RBAC) para garantizar un acceso seguro a las aplicaciones.",
-    fsdLi5:
-      "Desarrollo y mantenimiento de  pruebas unitarias y de integración utilizando Jest para mejorar la calidad y confiabilidad de la aplicación.",
-    fsdLi6:
-      "Construccion de aplicaciones escalables y mantenibles aplicando principios de código limpio, arquitectura modular y mejores prácticas de desarrollo de software.",
-    fsdLi7:
-      "Ayuda en el  soporte y mantenimiento a las aplicaciones existentes, incluyendo correcciones de errores, mejoras de funcionalidades, actualizaciones y optimización del rendimiento.",
-    fsdLi8:
-      "Colaboracion con las actividades de soporte de TI, incluyendo la resolución de problemas de software y hardware.",
+      "Comunicación con la dirección y los departamentos sobre la estandarización de procesos, costos, facturas y métricas de calidad.",
 
-    aaDipoRole: "Asistente Administrativo",
-    aaDipoMeta: "Grupo Dipo · 2022 — 2025",
-    aaDipoLi1:
-      "Coordinación de procesos operativos y flujos de trabajo administrativos.",
-    aaDipoLi2:
-      "Colaboración con otros departamentos en el análisis de datos y la preparación de reportes para la toma de decisiones.",
-
-    aaAltecoRole: "Asistente Administrativo",
-    aaAltecoMeta: "Alteco S.A · Sep 2017 — Feb 2022",
+    aaAltecoRole: "Supervisor de Proyectos / Administrativo",
+    aaAltecoMeta: "Alteco S.A · 2017 — 2022",
     aaAltecoLi1:
-      "Gestión de relaciones con clientes y documentación administrativa, asegurando el cumplimiento oportuno de tareas con la gerencia.",
+      "Gestión logística para la ejecución de proyectos: supervisión de la producción y del personal, control de calidad, comunicación con proveedores y clientes, elaboración de informes de gestión y planificación de cronogramas.",
+    aaAltecoLi2:
+      "Apoyo administrativo: coordinación de rutas, preparación de presupuestos, seguimiento de órdenes de compra y facturas, apoyo interdepartamental y atención al cliente posventa.",
 
     // Education
     educationTitle: "Educación",
