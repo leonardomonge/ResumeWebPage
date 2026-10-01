@@ -208,7 +208,7 @@ const translations = {
     experienceTitle: "Experiencia",
 
     fsdRole: "Coordinador de produccion / Administrativo",
-    fsdMeta: "Grupo Dipo · 2025 — Presente",
+    fsdMeta: "Grupo Dipo · 2022 — Presente",
     fsdLi1:
       "Identificación de ineficiencias en los procesos administrativos y diseño de soluciones digitales para mejorar los flujos de trabajo internos.",
     fsdLi2:
