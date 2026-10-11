@@ -11,10 +11,9 @@ const translations = {
 
     // About
 
-    aboutTitle: "Software Developer/Coordinator",
+    aboutTitle: "Full Stack Developer/Process Coordinator",
     aboutDesc:
-      "Software Developer with experience developing applications for internal business process automation. Focused in requirements analysis, systems design, troubleshooting, and creating scalable and maintainable code. Applying clean and secure code practices in agile environments throughout the software development lifecycle.",
-
+      "Process/Administrative Coordinator and Software Developer with a background in Industrial and Systems Engineering. Experience in business operations, process analysis, and software development. Skilled in identifying inefficiencies, analyzing operational needs, and improving processes through digitization and automation. Experienced in translating requirements into practical software solutions, combining business knowledge with technical skills to optimize workflows and drive efficiency.",
     // Why
     whyTitle: "Why work with me?",
     why1Title: "Fast Learner",
@@ -137,10 +136,9 @@ const translations = {
 
     // About
 
-    aboutTitle: "Desarrollador Full Stack/Coordinador",
+    aboutTitle: "Desarrollador Full Stack/Coordinador de Procesos",
     aboutDesc:
-      "Desarrollador de Software con experiencia en el desarrollo de aplicaciones para la automatización de procesos empresariales internos. Enfocado en el análisis de requisitos, el diseño de sistemas, la resolución de problemas y la creación de código escalable y fácil de mantener. Aplicando prácticas de código limpio y seguro en entornos ágiles a lo largo de todo el ciclo de vida del desarrollo de software.",
-
+      "Coordinador de procesos/administración y desarrollador de software con formación en Ingeniería Industrial y de Sistemas. Cuento con experiencia en operaciones empresariales, análisis de procesos y desarrollo de software. Tengo habilidades para identificar ineficiencias, analizar necesidades operativas y mejorar procesos mediante la digitalización y la automatización. Experiencia en la traducción de requisitos en soluciones de software prácticas, combinando conocimientos de negocio y habilidades técnicas para optimizar flujos de trabajo e impulsar la eficiencia.",
     // Why
     whyTitle: "¿Por qué trabajar conmigo?",
     why1Title: "Aprendizaje Rápido",
