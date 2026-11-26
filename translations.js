@@ -39,14 +39,14 @@ const translations = {
     projectsPersonalTitle: "Personal Projects",
 
     // Project: Digital Tickets
-    dtTitle: "Digital Tickets",
+    dtTitle: "Digital Tickets (Grupo Dipo 2026)",
     dtLi1:
       "This application uses PostgreSQL as database and employs JWT based authentication for role based access control (RBAC). Test automation was implemented using Jest, and the application was deployed to the cloud via Microsoft Azure, utilizing CI/CD pipelines and GitHub Actions.",
     dtDesc2:
       "Identified a manual process that needed automation. Breakfast and lunch purchases were recorded manually, causing delays and making information difficult to access. A web application was developed using an employee ID card and scanner to record each purchase. The system automatically stores the information and adds each purchase to the employee's account. This solution made the process faster, improved record accuracy, and allowed the staff involved to access and review information more easily.",
 
     // Project: Digital logBook
-    lbTitle: "Digital logBook",
+    lbTitle: "Digital logBook (Grupo Dipo 2025)",
     lbLi1:
       "Implemented JWT authentication and Role Based Access Control (RBAC) to manage user access and permissions. Developed RESTful APIs to manage employee requests and implemented automated testing using Jest and Selenium. The application was initially deployed on Railway and later migrated to Microsoft Azure.",
     lbDesc2:
