@@ -13,25 +13,24 @@ const translations = {
 
     aboutTitle: "Full Stack Developer/Process Coordinator",
     aboutDesc:
-      "Process/Administrative Coordinator and Software Developer with a background in Industrial and Systems Engineering. Experience in business operations, process analysis, and software development. Skilled in identifying inefficiencies, analyzing operational needs, and improving processes through digitization and automation. Experienced in translating requirements into practical software solutions, combining business knowledge with technical skills to optimize workflows and drive efficiency.",
-    // Why
+      "Project coordinator with a background in Industrial Engineering and Systems Engineering. My experience in process supervision and my knowledge ofsoftware development allow me to focus on continuous improvement and the automation of any process. My goal is to optimize workflows, automate processes, solve problems, and make a positive contribution both in my role and to the company.",
     whyTitle: "Why work with me?",
-    why1Title: "Fast Learner",
+    why1Title: "Adaptability",
     why1Desc:
-      "I study and program every day; I am sure I can learn and adapt to any new technology.",
-    why2Title: "AI-Driven Development",
+      "I believe my professional background allows me to work in different roles and apply my experience across a variety of responsibilities.",
+    why2Title: "Continuous updating",
     why2Desc:
-      "Passionate about artificial intelligence, with a focus on continuous learning and the application of the latest technologies.",
+      "Focused on learning new technologies and processes in a constantly changing and evolving market.",
     why3Title: "Problem Solver",
     why3Desc:
-      "Focused on problem-solving and process automation through software development.",
+      "Problem solving skills, ability to work under pressure, multitasking, and meeting objectives",
     why4Title: "Clear Communication",
     why4Desc:
-      "10+ years working as a team, I'm sure it's the best way to work to achieve our goals.",
+      "8 years of experience working with teams, sharing information, and coordinating with different departments and management.",
     why5Title: "Committed",
     why5Desc:
-      "Committed to the design and development of efficient and scalable software solutions.",
-    why6Title: "Long-Term Vision",
+      "I consider myself committed, responsible, Self taught., and always willing to learn.",
+    why6Title: "Long Term Vision",
     why6Desc:
       "In a few years, I see myself as a professional leading projects, applying the most innovative technologies, and contributing to the company's development.",
 
@@ -42,30 +41,16 @@ const translations = {
     // Project: Digital Tickets
     dtTitle: "Digital Tickets",
     dtLi1:
-      "Developed full-stack applications to digitize internal business processes.",
-    dtLi2: "Design of relational databases with PostgreSQL and Prisma ORM.",
-    dtLi3:
-      "Development of REST APIs with NestJS, including JWT authentication and role-based access control (RBAC).",
-    dtLi4:
-      "Implementation of automated testing with Jest (unit and integration tests).",
-    dtLi5:
-      "Deployment to Microsoft Azure (App Service, Static Web Apps, PostgreSQL) with CI/CD using GitHub Actions.",
+      "This application uses PostgreSQL as database and employs JWT based authentication for role based access control (RBAC). Test automation was implemented using Jest, and the application was deployed to the cloud via Microsoft Azure, utilizing CI/CD pipelines and GitHub Actions.",
     dtDesc2:
-      "Developed a comprehensive application to automate and digitize the purchase review process, replacing manual workflows and improving operational efficiency. The solution was packaged in Docker containers and deployed on Microsoft Azure, providing a scalable, secure, and easily maintainable cloud environment.",
+      "Identified a manual process that needed automation. Breakfast and lunch purchases were recorded manually, causing delays and making information difficult to access. A web application was developed using an employee ID card and scanner to record each purchase. The system automatically stores the information and adds each purchase to the employee's account. This solution made the process faster, improved record accuracy, and allowed the staff involved to access and review information more easily.",
 
     // Project: Digital logBook
     lbTitle: "Digital logBook",
     lbLi1:
-      "Developed a full-stack web application to digitize employee leave management",
-    lbLi2:
-      "Implemented JWT authentication and role-based access control (RBAC)",
-    lbLi3:
-      "Built RESTful APIs for request management, approval workflows, and data handling",
-    lbLi4: "Improved workflow efficiency by reducing manual processes",
-    lbLi5:
-      "Implementation of automated testing using Jest and Selenium, including unit, integration, and end-to-end testing, to validate application functionality and improve software reliability.",
+      "Implemented JWT authentication and Role Based Access Control (RBAC) to manage user access and permissions. Developed RESTful APIs to manage employee requests and implemented automated testing using Jest and Selenium. The application was initially deployed on Railway and later migrated to Microsoft Azure.",
     lbDesc2:
-      "Automated the existing manual process and developed a digital workflow for employee requests, approvals, and review, improving information organization and process visibility",
+      "We identified a slow, manual process for reviewing employee requests, including vacations, medical leave, days off, and other permissions. The information was not centralized, making it difficult to review requests and causing delays across several departments. We developed a web application where each supervisor can submit requests for their employees and attach the required documents. The requests are then reviewed by Human Resources and Management. This automation made the process faster for supervisors, centralized employee information, and simplified the review process for everyone involved.",
 
     // Project: Vamtek Systems
     pkTitle: "Vantek Systems — Freelance Collaborator (2026 – Present)",
@@ -78,18 +63,26 @@ const translations = {
     fsdRole: "Production / Administrative Coordinator ",
     fsdMeta: "Grupo Dipo · 2022 — Present",
     fsdLi1:
-      "Identification of inefficiencies in administrative processes and design of digital solutions to improve internal workflows.",
+      "Coordinating daily operations and manufacturing activities to meet objectives, support communication between departments, and ensure proper process documentation.",
     fsdLi2:
-      "Preparation production reports and operational metrics, including data tracking, analysis, and information updates across departments.",
+      "Collecting and analyzing information to prepare reports, monitor performance indicators, and support decision making inthe Cost, Logistics, and Management departments",
     fsdLi3:
-      "Communication with management and departments regarding process standardization, costs, invoices, and quality metrics.",
+      "Following up on quotations and invoices with different departments, reviewing budgets and costs, and negotiating with suppliers.",
+    fsdLi4:
+      "Identifying process inefficiencies and helping implement digital solutions to improve internal workflows.",
 
     aaAltecoRole: "Project Supervisor / Administrative",
     aaAltecoMeta: "Alteco S.A · 2017 — 2022",
     aaAltecoLi1:
-      "Logistics management for project execution: Production and personnel supervision, quality control, communication with suppliers and clients, management reporting, and schedule creation.",
+      "Coordinating projects from start to finish, including planning, scheduling, execution, and after-sales service.",
     aaAltecoLi2:
-      "Administrative support: Route coordination, preparation of price quotes, tracking of purchase orders and invoices, interdepartmental support, and after-sales customer service.",
+      "Working with clients, suppliers, logistics, and internal teams to keep projects on schedule and ensure on time delivery.",
+    aaAltecoLi3:
+      "Preparing and maintaining project documents, including contracts, quotations, invoices, budgets, and expense reports, while communicating with management and other departments.",
+    aaAltecoLi4:
+      "Supporting invoicing activities by preparing payment and project progress reports.",
+    aaAltecoLi5:
+      "Reviewing projects and analyzing data to identify risks, delays, and operational issues, helping improve decision making and future projects.",
 
     // Education
     educationTitle: "Education",
@@ -138,64 +131,50 @@ const translations = {
 
     aboutTitle: "Desarrollador Full Stack/Coordinador de Procesos",
     aboutDesc:
-      "Coordinador de procesos/administración y desarrollador de software con formación en Ingeniería Industrial y de Sistemas. Cuento con experiencia en operaciones empresariales, análisis de procesos y desarrollo de software. Tengo habilidades para identificar ineficiencias, analizar necesidades operativas y mejorar procesos mediante la digitalización y la automatización. Experiencia en la traducción de requisitos en soluciones de software prácticas, combinando conocimientos de negocio y habilidades técnicas para optimizar flujos de trabajo e impulsar la eficiencia.",
+      "Coordinador de proyectos con formación en Ingeniería Industrial e Ingeniería de Sistemas. Mi experiencia en la supervisión de procesos y mis conocimientos en desarrollo de software me permiten centrarme en la mejora continua y en la automatización de cualquier proceso. Mi objetivo es optimizar flujos de trabajo, automatizar procesos, resolver problemas y realizar una contribución positiva tanto en mi puesto como a la empresa.",
     // Why
     whyTitle: "¿Por qué trabajar conmigo?",
-    why1Title: "Aprendizaje Rápido",
+    why1Title: "Adaptabilidad",
     why1Desc:
-      "Estudio y programo todos los días; estoy seguro de que puedo aprender y adaptarme a cualquier nueva tecnología.",
-    why2Title: "Desarrollo con IA",
+      "Mi experiencia profesional me permite trabajar en diferentes roles y aplicar mi experiencia en una variedad de responsabilidades.",
+
+    why2Title: "Continua Actualización",
     why2Desc:
-      "Apasionado por la inteligencia artificial, con enfoque en el aprendizaje continuo y la aplicación de las últimas tecnologías.",
+      "Enfocado en aprender nuevas tecnologías y procesos en un mercado en constante cambio y evolución.",
+
     why3Title: "Resolución de Problemas",
     why3Desc:
-      "Enfocado en la resolución de problemas y la automatización de procesos mediante el desarrollo de software.",
+      "Habilidades de resolución de problemas, capacidad para trabajar bajo presión, gestión de múltiples tareas y cumplimiento de objetivos",
+
     why4Title: "Comunicación Clara",
     why4Desc:
-      "Más de 10 años trabajando en equipo, estoy seguro de que es la mejor manera de trabajar para alcanzar nuestros objetivos.",
+      "8 años de experiencia trabajando con equipos, compartiendo información y coordinándome con distintos departamentos y con la dirección.",
+
     why5Title: "Comprometido",
     why5Desc:
-      "Comprometido con el diseño y desarrollo de soluciones de software eficientes y escalables.",
+      "Me considero una persona comprometida, responsable, autodidacta y siempre dispuesta a aprender.",
+
     why6Title: "Visión a Largo Plazo",
     why6Desc:
       "En unos años me veo como profesional liderando proyectos, aplicando las tecnologías más innovadoras y contribuyendo al desarrollo de la empresa.",
 
     // Projects
-    projectsTitle: "Proyectos Laborales",
-    projectsPersonalTitle: "Proyectos Personales",
+    projectsTitle: "Proyectos Profesionales",
+    projectsPersonalTitle: "Proyectos Profesionales",
 
     // Project: Digital Tickets
     dtTitle: "Compras Digitales",
     dtLi1:
-      "Desarrollo de aplicacion full-stack para digitalizar procesos internos del negocio.",
-    dtLi2: "Diseño de bases de datos relacionales con PostgreSQL y Prisma ORM.",
-    dtLi3:
-      "Desarrollo de APIs REST con NestJS, incluyendo autenticación JWT y control de acceso basado en roles (RBAC).",
-    dtLi4:
-      "Implementación de pruebas automatizadas con Jest (pruebas unitarias y de integración).",
-    dtLi5:
-      "Despliegue en Microsoft Azure (App Service, Static Web Apps, PostgreSQL) con CI/CD usando GitHub Actions.",
+      "Esta aplicación utiliza PostgreSQL como base de datos y emplea autenticación basada en JWT para el control de acceso basado en roles (RBAC). Se implementó la automatización de pruebas mediante Jest, y la aplicación se desplegó en la nube a través de Microsoft Azure, utilizando pipelines de CI/CD y GitHub Actions.",
     dtDesc2:
-      "Desarrollo de una aplicación integral para digitalizar el proceso de revisión de compras internas de los productos de la compañía, reemplazando flujos de trabajo manuales y mejorando la eficiencia operativa. La solución fue empaquetada en contenedores Docker y desplegada en Microsoft Azure, brindando un entorno en la nube escalable, seguro y de fácil mantenimiento.",
+      "Se identificó un proceso manual que requería automatización. Las compras de desayunos y almuerzos se registraban manualmente, lo que provocaba retrasos y dificultaba el acceso a la información. Se desarrolló una aplicación web que utiliza la tarjeta de identificación del empleado y un escáner para registrar cada compra. El sistema almacena la información automáticamente y añade cada compra a la cuenta del empleado. Esta solución agilizó el proceso, mejoró la precisión de los registros y permitió que el personal involucrado pudiera acceder a la información y revisarla con mayor facilidad.",
 
     // Project: Digital logBook
     lbTitle: "Bitácora Digital",
     lbLi1:
-      "Desarrollo de aplicación web full-stack para digitalizar la gestión de permisos de empleados",
-    lbLi2:
-      "Implementacion de autenticación JWT y control de acceso basado en roles (RBAC)",
-    lbLi3:
-      "Desarrollo APIs RESTful para gestión de solicitudes, flujos de aprobación y manejo de datos",
-    lbLi5:
-      "Implementación de pruebas automatizadas mediante Jest y Selenium, incluyendo pruebas unitarias, para validar la funcionalidad de la aplicación y mejorar la fiabilidad del software.",
+      "Se implementó autenticación mediante JWT y control de acceso basado en roles (RBAC) para gestionar el acceso y los permisos de los usuarios. Se desarrollaron API RESTful para gestionar las solicitudes de los empleados y se implementaron pruebas automatizadas utilizando Jest y Selenium. La aplicación se desplegó inicialmente en Railway y, posteriormente, se migró a Microsoft Azure.",
     lbDesc2:
-      "Se automatizó el proceso manual existente y se desarrolló un flujo de trabajo digital para las solicitudes, aprobaciones y revisiones de los empleados, mejorando así la organización de la información y la visibilidad del proceso.",
-
-    // Project: Personal WebSite
-    WebSiteTitle: "Pagina Personal",
-    WSLi1: "Creada para mostrar mi informacion personal y profesional.",
-    WSDesc:
-      "Este portafolio contiene mi informacion personal y profesional con la intencion de mostrar mis proyectos personales y laborales en los que he estado involucrado. Mostrando mi experiencia y habilidades.",
+      "Identificamos un proceso lento y manual para la revisión de las solicitudes de los empleados, tales como vacaciones, incapacidades médicas, días libres y otros permisos. La información no estaba centralizada, lo que dificultaba la revisión de dichas solicitudes y provocaba retrasos en varios departamentos. Desarrollamos una aplicación web que permite a cada supervisor enviar las solicitudes de sus empleados y adjuntar la documentación necesaria. Posteriormente, estas solicitudes son revisadas por el departamento de Recursos Humanos y la dirección. Esta automatización agilizó el proceso para los supervisores, centralizó la información de los empleados y simplificó el procedimiento de revisión para todas las partes involucradas.",
 
     // Project: Vantek Systems
     pkTitle: "Vantek Systems (Colaborador Freelance | 2026 – Presente):",
@@ -208,18 +187,26 @@ const translations = {
     fsdRole: "Coordinador de produccion / Administrativo",
     fsdMeta: "Grupo Dipo · 2022 — Presente",
     fsdLi1:
-      "Identificación de ineficiencias en los procesos administrativos y diseño de soluciones digitales para mejorar los flujos de trabajo internos.",
+      "Coordinar las operaciones diarias y las actividades de fabricación para cumplir con los objetivos, realizar la comunicación entre departamentos y garantizar la correcta documentación de los procesos.",
     fsdLi2:
-      "Elaboración de informes de producción y métricas operativas, incluyendo el seguimiento de datos, el análisis y la actualización de información entre departamentos.",
+      "Recopilar y analizar información para elaborar informes, realizar un seguimiento de los indicadores de desempeño y apoyar la toma de decisiones en los departamentos de Costos, Logística y Gestión.",
     fsdLi3:
-      "Comunicación con la dirección y los departamentos sobre la estandarización de procesos, costos, facturas y métricas de calidad.",
+      "Realizar el seguimiento de cotizaciones y facturas con distintos departamentos, revisar presupuestos, costos y negociar con proveedores.",
+    fsdLi4:
+      "Identificar ineficiencias en los procesos y contribuir a la implementación de soluciones digitales para mejorar los flujos de trabajo internos.",
 
-    aaAltecoRole: "Supervisor de Proyectos / Administrativo",
+    aaAltecoRole: "Coordinador de Proyectos / Administrativo",
     aaAltecoMeta: "Alteco S.A · 2017 — 2022",
     aaAltecoLi1:
-      "Gestión logística para la ejecución de proyectos: supervisión de la producción y del personal, control de calidad, comunicación con proveedores y clientes, elaboración de informes de gestión y planificación de cronogramas.",
+      "Coordinar proyectos de principio a fin, lo que incluye la planificación, la programación, la ejecución y el servicio posventa.",
     aaAltecoLi2:
-      "Apoyo administrativo: coordinación de rutas, preparación de presupuestos, seguimiento de órdenes de compra y facturas, apoyo interdepartamental y atención al cliente posventa.",
+      "Colaborar con clientes, proveedores, logística y los equipos internos para mantener los proyectos dentro de los plazos establecidos y garantizar la entrega puntual.",
+    aaAltecoLi3:
+      "Elaborar y gestionar la documentación de los proyectos incluidos contratos, presupuestos, facturas y reportes de gastos, manteniendo una comunicación constante con la dirección y otros departamentos.",
+    aaAltecoLi4:
+      "Apoyar los procesos de facturación mediante la preparación de informes de pago y de avance de proyectos.",
+    aaAltecoLi5:
+      "Revisar proyectos y analizar datos para identificar riesgos, retrasos y problemas operativos, contribuyendo así a mejorar la toma de decisiones y los proyectos futuros.",
 
     // Education
     educationTitle: "Educación",
