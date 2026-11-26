@@ -11,7 +11,7 @@ const translations = {
 
     // About
 
-    aboutTitle: "Full Stack Developer/Process Coordinator",
+    aboutTitle: "Project & Operations Coordinator",
     aboutDesc:
       "Project coordinator with a background in Industrial Engineering and Systems Engineering. My experience in process supervision and my knowledge ofsoftware development allow me to focus on continuous improvement and the automation of any process. My goal is to optimize workflows, automate processes, solve problems, and make a positive contribution both in my role and to the company.",
     whyTitle: "Why work with me?",
@@ -129,7 +129,7 @@ const translations = {
 
     // About
 
-    aboutTitle: "Desarrollador Full Stack/Coordinador de Procesos",
+    aboutTitle: "Coordinador Proyectos & Operaciones",
     aboutDesc:
       "Coordinador de proyectos con formación en Ingeniería Industrial e Ingeniería de Sistemas. Mi experiencia en la supervisión de procesos y mis conocimientos en desarrollo de software me permiten centrarme en la mejora continua y en la automatización de cualquier proceso. Mi objetivo es optimizar flujos de trabajo, automatizar procesos, resolver problemas y realizar una contribución positiva tanto en mi puesto como a la empresa.",
     // Why
